@@ -245,12 +245,16 @@ def db_insert_main_relevancy(rows: List[Tuple[Any, ...]]) -> int:
     conn = db_connect()
     cur = conn.cursor()
     try:
+        if rows:
+            logger.info(f"Attempting to insert {len(rows)} rows into Main_Relevency...")
         cur.executemany(MAIN_RELEVANCY_INSERT_SQL, rows)
         conn.commit()
+        if rows:
+            logger.info(f"Successfully inserted {len(rows)} rows into Main_Relevency.")
         return len(rows)
-    except Exception:
+    except Exception as e:
         conn.rollback()
-        logger.exception("db_insert_main_relevancy failed.")
+        logger.exception(f"db_insert_main_relevancy failed: {e}")
         raise
     finally:
         cur.close()
