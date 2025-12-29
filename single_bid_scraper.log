@@ -1,0 +1,383 @@
+2025-12-30 00:06:32,572 [INFO] Starting Single Bid Scraper for: GEM/2025/B/6653286
+2025-12-30 00:06:34,844 [INFO] Navigating to /all-bids...
+2025-12-30 00:06:41,158 [INFO] Searching for GEM/2025/B/6653286...
+2025-12-30 00:07:11,265 [ERROR] Main loop error
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run_single_bid.py", line 286, in run_single_bid_scraper
+    await search_input.fill(TARGET_BID_NO)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 2382, in fill
+    await self._impl_obj.fill(
+        value=value, timeout=timeout, noWaitAfter=no_wait_after, force=force
+    )
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_element_handle.py", line 200, in fill
+    await self._channel.send(
+        "fill", self._frame._timeout, locals_to_params(locals())
+    )
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: ElementHandle.fill: Timeout 30000ms exceeded.
+Call log:
+    - fill("GEM/2025/B/6653286")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    57 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
+2025-12-30 00:09:58,609 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-30 00:09:59,125 [INFO] Matcher initialized.
+2025-12-30 00:10:13,593 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:10:13,594 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:10:18,592 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:10:18,593 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:10:22,506 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:10:22,506 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:10:27,353 [INFO] Loaded global_relevancy.predict.
+2025-12-30 00:10:59,684 [INFO] Scraper starting with search query: 'GEM/2025/B/6653286'...
+2025-12-30 00:10:59,685 [INFO] DB consumer starting...
+2025-12-30 00:11:01,243 [INFO] Navigating to https://bidplus.gem.gov.in/all-bids ...
+2025-12-30 00:11:07,600 [INFO] Typing search query: GEM/2025/B/6653286
+2025-12-30 00:11:07,694 [INFO] Search submitted. Waiting for results...
+2025-12-30 00:11:10,797 [INFO] Found 1 records across 1 pages.
+2025-12-30 00:11:10,798 [INFO] Scraping page 1...
+2025-12-30 00:11:13,733 [INFO] Scraping finished.
+2025-12-30 00:11:13,733 [INFO] Scraper worker done. Shutting down browser.
+2025-12-30 00:11:14,042 [INFO] package: mysql.connector.plugins
+2025-12-30 00:11:14,042 [INFO] package: mysql.connector.plugins
+2025-12-30 00:11:14,043 [INFO] plugin_name: caching_sha2_password
+2025-12-30 00:11:14,043 [INFO] plugin_name: caching_sha2_password
+2025-12-30 00:11:14,044 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 00:11:14,045 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 00:11:14,050 [INFO] package: mysql.connector.plugins
+2025-12-30 00:11:14,052 [INFO] plugin_name: mysql_native_password
+2025-12-30 00:11:14,053 [INFO] package: mysql.connector.plugins
+2025-12-30 00:11:14,054 [INFO] plugin_name: mysql_native_password
+2025-12-30 00:11:14,056 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 00:11:14,056 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 00:11:14,071 [INFO] DB: committed approx 1 rows.
+2025-12-30 00:11:15,076 [INFO] DB consumer shutting down.
+2025-12-30 00:18:50,036 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-30 00:18:51,038 [INFO] Matcher initialized.
+2025-12-30 00:19:00,638 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:19:00,639 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:19:06,449 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:19:06,449 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:19:11,519 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:19:11,520 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:19:16,261 [INFO] Loaded global_relevancy.predict.
+2025-12-30 00:19:28,639 [INFO] Scraper starting with search query: 'GEM/2025/B/6653286'...
+2025-12-30 00:19:28,640 [INFO] DB consumer starting...
+2025-12-30 00:19:30,169 [INFO] Navigating to https://bidplus.gem.gov.in/all-bids ...
+2025-12-30 00:19:36,026 [INFO] Typing search query: GEM/2025/B/6653286
+2025-12-30 00:19:36,155 [INFO] Search submitted. Waiting for results...
+2025-12-30 00:19:39,202 [INFO] Found 1 records across 1 pages.
+2025-12-30 00:19:39,203 [INFO] Scraping page 1...
+2025-12-30 00:19:40,495 [INFO] Scraping finished.
+2025-12-30 00:19:40,496 [INFO] Scraper worker done. Shutting down browser.
+2025-12-30 00:19:40,793 [INFO] package: mysql.connector.plugins
+2025-12-30 00:19:40,795 [INFO] plugin_name: caching_sha2_password
+2025-12-30 00:19:40,795 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 00:19:40,800 [INFO] package: mysql.connector.plugins
+2025-12-30 00:19:40,801 [INFO] plugin_name: mysql_native_password
+2025-12-30 00:19:40,804 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 00:19:40,825 [INFO] DB: committed approx 1 rows.
+2025-12-30 00:19:41,833 [INFO] DB consumer shutting down.
+2025-12-30 00:25:02,331 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-30 00:25:02,731 [INFO] Matcher initialized.
+2025-12-30 00:25:11,186 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:25:11,186 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:25:15,692 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:25:15,693 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:25:19,621 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:25:19,621 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:25:23,936 [INFO] Loaded global_relevancy.predict.
+2025-12-30 00:26:04,599 [INFO] Scraper starting with search query: 'GEM/2025/B/6653286'...
+2025-12-30 00:26:04,600 [INFO] DB consumer starting...
+2025-12-30 00:26:06,587 [INFO] Navigating to https://bidplus.gem.gov.in/all-bids ...
+2025-12-30 00:26:12,399 [INFO] Typing search query: GEM/2025/B/6653286
+2025-12-30 00:26:12,514 [INFO] Search submitted. Waiting for results...
+2025-12-30 00:26:15,584 [INFO] Found 1 records across 1 pages.
+2025-12-30 00:26:15,585 [INFO] Scraping page 1...
+2025-12-30 00:26:17,268 [INFO] Found View Corrigendum link for GEM/2025/B/6653286
+2025-12-30 00:26:21,855 [WARNING] Modal extraction error: Page.wait_for_selector: Timeout 4000ms exceeded.
+Call log:
+  - waiting for locator("div.modal:visible") to be visible
+
+2025-12-30 00:26:21,864 [INFO] Scraping finished.
+2025-12-30 00:26:21,865 [INFO] Scraper worker done. Shutting down browser.
+2025-12-30 00:26:22,164 [INFO] package: mysql.connector.plugins
+2025-12-30 00:26:22,179 [INFO] plugin_name: caching_sha2_password
+2025-12-30 00:26:22,186 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 00:26:22,203 [INFO] package: mysql.connector.plugins
+2025-12-30 00:26:22,203 [INFO] plugin_name: mysql_native_password
+2025-12-30 00:26:22,213 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 00:26:22,326 [INFO] DB: committed approx 1 rows.
+2025-12-30 00:26:23,327 [INFO] DB consumer shutting down.
+2025-12-30 00:35:08,164 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-30 00:35:08,576 [INFO] Matcher initialized.
+2025-12-30 00:35:17,883 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:35:17,884 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:35:24,857 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:35:24,858 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:35:31,422 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:35:31,423 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:35:36,769 [INFO] Loaded global_relevancy.predict.
+2025-12-30 00:35:55,350 [INFO] Scraper starting with search query: 'GEM/2025/B/6653286'...
+2025-12-30 00:35:55,351 [INFO] DB consumer starting...
+2025-12-30 00:35:56,923 [INFO] Navigating to https://bidplus.gem.gov.in/all-bids ...
+2025-12-30 00:36:04,729 [INFO] Typing search query: GEM/2025/B/6653286
+2025-12-30 00:36:04,824 [INFO] Search submitted. Waiting for results...
+2025-12-30 00:36:07,901 [INFO] Found 1 records across 1 pages.
+2025-12-30 00:36:07,902 [INFO] Scraping page 1...
+2025-12-30 00:36:09,510 [INFO] Found View Corrigendum link for GEM/2025/B/6653286
+2025-12-30 00:36:13,996 [WARNING] Modal extraction error: Page.wait_for_selector: Timeout 4000ms exceeded.
+Call log:
+  - waiting for locator("div.modal:visible") to be visible
+
+2025-12-30 00:36:14,004 [INFO] Scraping finished.
+2025-12-30 00:36:14,005 [INFO] Scraper worker done. Shutting down browser.
+2025-12-30 00:36:14,363 [INFO] package: mysql.connector.plugins
+2025-12-30 00:36:14,364 [INFO] plugin_name: caching_sha2_password
+2025-12-30 00:36:14,365 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 00:36:14,368 [INFO] package: mysql.connector.plugins
+2025-12-30 00:36:14,369 [INFO] plugin_name: mysql_native_password
+2025-12-30 00:36:14,373 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 00:36:14,395 [INFO] DB: committed approx 1 rows.
+2025-12-30 00:36:15,397 [INFO] DB consumer shutting down.
+2025-12-30 00:50:32,971 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-30 00:50:33,370 [INFO] Matcher initialized.
+2025-12-30 00:50:42,273 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:50:42,274 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:50:46,753 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:50:46,753 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:50:50,939 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:50:50,940 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:50:55,180 [INFO] Loaded global_relevancy.predict.
+2025-12-30 00:51:16,907 [INFO] Scraper starting with search query: 'GEM/2025/B/6653286'...
+2025-12-30 00:51:16,907 [INFO] DB consumer starting...
+2025-12-30 00:51:18,478 [INFO] Navigating to https://bidplus.gem.gov.in/all-bids ...
+2025-12-30 00:51:23,786 [INFO] Typing search query: GEM/2025/B/6653286
+2025-12-30 00:51:23,889 [INFO] Search submitted. Waiting for results...
+2025-12-30 00:51:26,961 [INFO] Found 1 records across 1 pages.
+2025-12-30 00:51:26,962 [INFO] Scraping page 1...
+2025-12-30 00:51:28,744 [INFO] Found View Corrigendum link for GEM/2025/B/6653286
+2025-12-30 00:51:33,194 [WARNING] Modal extraction error: Page.wait_for_selector: Timeout 4000ms exceeded.
+Call log:
+  - waiting for locator("div.modal:visible") to be visible
+
+2025-12-30 00:51:33,205 [INFO] Scraping finished.
+2025-12-30 00:51:33,206 [INFO] Scraper worker done. Shutting down browser.
+2025-12-30 00:51:33,558 [INFO] package: mysql.connector.plugins
+2025-12-30 00:51:33,558 [INFO] package: mysql.connector.plugins
+2025-12-30 00:51:33,559 [INFO] plugin_name: caching_sha2_password
+2025-12-30 00:51:33,559 [INFO] plugin_name: caching_sha2_password
+2025-12-30 00:51:33,560 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 00:51:33,560 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 00:51:33,565 [INFO] package: mysql.connector.plugins
+2025-12-30 00:51:33,566 [INFO] plugin_name: mysql_native_password
+2025-12-30 00:51:33,568 [INFO] package: mysql.connector.plugins
+2025-12-30 00:51:33,570 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 00:51:33,570 [INFO] plugin_name: mysql_native_password
+2025-12-30 00:51:33,572 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 00:51:33,589 [INFO] DB: committed approx 1 rows.
+2025-12-30 00:51:34,594 [INFO] DB consumer shutting down.
+2025-12-30 00:54:19,856 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-30 00:54:20,277 [INFO] Matcher initialized.
+2025-12-30 00:54:29,221 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:54:29,222 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:54:34,049 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:54:34,050 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:54:38,797 [INFO] Use pytorch device_name: cpu
+2025-12-30 00:54:38,798 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 00:54:42,771 [INFO] Loaded global_relevancy.predict.
+2025-12-30 00:54:53,350 [INFO] Scraper starting with search query: 'GEM/2025/B/6653286'...
+2025-12-30 00:54:53,350 [INFO] DB consumer starting...
+2025-12-30 00:54:54,871 [INFO] Navigating to https://bidplus.gem.gov.in/all-bids ...
+2025-12-30 00:55:00,738 [INFO] Typing search query: GEM/2025/B/6653286
+2025-12-30 00:55:00,831 [INFO] Search submitted. Waiting for results...
+2025-12-30 00:55:03,896 [INFO] Found 1 records across 1 pages.
+2025-12-30 00:55:03,897 [INFO] Scraping page 1...
+2025-12-30 00:55:05,678 [INFO] Found View Corrigendum trigger for GEM/2025/B/6653286
+2025-12-30 00:55:18,118 [WARNING] Modal extraction error: Page.wait_for_selector: Timeout 12000ms exceeded.
+Call log:
+  - waiting for locator("div.modal:visible") to be visible
+
+2025-12-30 00:55:18,130 [INFO] Scraping finished.
+2025-12-30 00:55:18,131 [INFO] Scraper worker done. Shutting down browser.
+2025-12-30 00:55:18,520 [INFO] package: mysql.connector.plugins
+2025-12-30 00:55:18,526 [INFO] plugin_name: caching_sha2_password
+2025-12-30 00:55:18,527 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 00:55:18,532 [INFO] package: mysql.connector.plugins
+2025-12-30 00:55:18,532 [INFO] plugin_name: mysql_native_password
+2025-12-30 00:55:18,536 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 00:55:18,555 [INFO] DB: committed approx 1 rows.
+2025-12-30 00:55:19,557 [INFO] DB consumer shutting down.
+2025-12-30 01:05:07,976 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-30 01:05:08,869 [INFO] Matcher initialized.
+2025-12-30 01:05:26,445 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:05:26,446 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:05:32,667 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:05:32,668 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:05:37,266 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:05:37,267 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:05:41,439 [INFO] Loaded global_relevancy.predict.
+2025-12-30 01:06:30,025 [INFO] Scraper starting with search query: 'GEM/2025/B/6653286'...
+2025-12-30 01:06:30,025 [INFO] DB consumer starting...
+2025-12-30 01:06:31,562 [INFO] Navigating to https://bidplus.gem.gov.in/all-bids ...
+2025-12-30 01:06:37,169 [INFO] Typing search query: GEM/2025/B/6653286
+2025-12-30 01:06:37,255 [INFO] Search submitted. Waiting for results...
+2025-12-30 01:06:40,314 [INFO] Found 1 records across 1 pages.
+2025-12-30 01:06:40,315 [INFO] Scraping page 1...
+2025-12-30 01:06:42,096 [INFO] Found View Corrigendum trigger for GEM/2025/B/6653286
+2025-12-30 01:06:47,472 [INFO] Modal not appearing, retrying click...
+2025-12-30 01:06:57,499 [WARNING] Modal extraction error: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("div.modal:visible") to be visible
+
+2025-12-30 01:06:57,512 [INFO] Scraping finished.
+2025-12-30 01:06:57,513 [INFO] Scraper worker done. Shutting down browser.
+2025-12-30 01:06:57,815 [INFO] package: mysql.connector.plugins
+2025-12-30 01:06:57,837 [INFO] plugin_name: caching_sha2_password
+2025-12-30 01:06:57,858 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 01:06:57,863 [INFO] package: mysql.connector.plugins
+2025-12-30 01:06:57,864 [INFO] plugin_name: mysql_native_password
+2025-12-30 01:06:57,869 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 01:06:57,890 [INFO] DB: committed approx 1 rows.
+2025-12-30 01:06:58,894 [INFO] DB consumer shutting down.
+2025-12-30 01:21:10,808 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-30 01:21:11,359 [INFO] Matcher initialized.
+2025-12-30 01:21:24,192 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:21:24,192 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:21:29,477 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:21:29,477 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:21:33,490 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:21:33,491 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:21:38,767 [INFO] Loaded global_relevancy.predict.
+2025-12-30 01:21:51,523 [INFO] Scraper starting with search query: 'GEM/2025/B/6653286'...
+2025-12-30 01:21:51,524 [INFO] DB consumer starting...
+2025-12-30 01:21:53,967 [INFO] Navigating to https://bidplus.gem.gov.in/all-bids ...
+2025-12-30 01:22:01,905 [INFO] Typing search query: GEM/2025/B/6653286
+2025-12-30 01:22:01,995 [INFO] Search submitted. Waiting for results...
+2025-12-30 01:22:05,070 [INFO] Found 1 records across 1 pages.
+2025-12-30 01:22:05,071 [INFO] Scraping page 1...
+2025-12-30 01:22:08,860 [INFO] Scraping finished.
+2025-12-30 01:22:08,861 [INFO] Scraper worker done. Shutting down browser.
+2025-12-30 01:22:09,203 [INFO] package: mysql.connector.plugins
+2025-12-30 01:22:09,204 [INFO] package: mysql.connector.plugins
+2025-12-30 01:22:09,204 [INFO] plugin_name: caching_sha2_password
+2025-12-30 01:22:09,205 [INFO] plugin_name: caching_sha2_password
+2025-12-30 01:22:09,205 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 01:22:09,205 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 01:22:09,212 [INFO] package: mysql.connector.plugins
+2025-12-30 01:22:09,212 [INFO] plugin_name: mysql_native_password
+2025-12-30 01:22:09,214 [INFO] package: mysql.connector.plugins
+2025-12-30 01:22:09,215 [INFO] plugin_name: mysql_native_password
+2025-12-30 01:22:09,218 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 01:22:09,218 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 01:22:09,234 [INFO] DB: committed approx 1 rows.
+2025-12-30 01:22:10,251 [INFO] DB consumer shutting down.
+2025-12-30 01:27:01,293 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-30 01:27:01,709 [INFO] Matcher initialized.
+2025-12-30 01:27:11,999 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:27:12,000 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:27:17,461 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:27:17,462 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:27:22,163 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:27:22,163 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:27:27,417 [INFO] Loaded global_relevancy.predict.
+2025-12-30 01:27:43,653 [INFO] Scraper starting with search query: 'GEM/2025/B/6653286'...
+2025-12-30 01:27:43,654 [INFO] DB consumer starting...
+2025-12-30 01:27:45,206 [INFO] Navigating to https://bidplus.gem.gov.in/all-bids ...
+2025-12-30 01:27:51,807 [INFO] Typing search query: GEM/2025/B/6653286
+2025-12-30 01:27:51,899 [INFO] Search submitted. Waiting for results...
+2025-12-30 01:27:54,974 [INFO] Found 1 records across 1 pages.
+2025-12-30 01:27:54,975 [INFO] Scraping page 1...
+2025-12-30 01:27:57,052 [INFO] Scraping finished.
+2025-12-30 01:27:57,053 [INFO] Scraper worker done. Shutting down browser.
+2025-12-30 01:27:57,330 [INFO] package: mysql.connector.plugins
+2025-12-30 01:27:57,362 [INFO] plugin_name: caching_sha2_password
+2025-12-30 01:27:57,367 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 01:27:57,374 [INFO] package: mysql.connector.plugins
+2025-12-30 01:27:57,375 [INFO] plugin_name: mysql_native_password
+2025-12-30 01:27:57,379 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 01:27:57,399 [INFO] DB: committed approx 1 rows.
+2025-12-30 01:27:58,406 [INFO] DB consumer shutting down.
+2025-12-30 01:30:56,552 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-30 01:30:57,040 [INFO] Matcher initialized.
+2025-12-30 01:31:05,889 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:31:05,890 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:31:11,500 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:31:11,501 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:31:16,617 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:31:16,618 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:31:20,974 [INFO] Loaded global_relevancy.predict.
+2025-12-30 01:31:26,024 [INFO] Scraper starting with search query: 'GEM/2025/B/6890450'...
+2025-12-30 01:31:26,025 [INFO] DB consumer starting...
+2025-12-30 01:31:27,483 [INFO] Navigating to https://bidplus.gem.gov.in/all-bids ...
+2025-12-30 01:31:34,120 [INFO] Typing search query: GEM/2025/B/6890450
+2025-12-30 01:31:34,207 [INFO] Search submitted. Waiting for results...
+2025-12-30 01:31:37,268 [INFO] Found 1 records across 1 pages.
+2025-12-30 01:31:37,268 [INFO] Scraping page 1...
+2025-12-30 01:31:39,007 [INFO] Scraping finished.
+2025-12-30 01:31:39,008 [INFO] Scraper worker done. Shutting down browser.
+2025-12-30 01:31:39,269 [INFO] package: mysql.connector.plugins
+2025-12-30 01:31:39,284 [INFO] plugin_name: caching_sha2_password
+2025-12-30 01:31:39,315 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 01:31:39,337 [INFO] package: mysql.connector.plugins
+2025-12-30 01:31:39,338 [INFO] plugin_name: mysql_native_password
+2025-12-30 01:31:39,341 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 01:31:39,372 [INFO] DB: committed approx 1 rows.
+2025-12-30 01:31:40,380 [INFO] DB consumer shutting down.
+2025-12-30 01:44:42,556 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-30 01:44:43,429 [INFO] Matcher initialized.
+2025-12-30 01:46:02,532 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-30 01:46:02,919 [INFO] Matcher initialized.
+2025-12-30 01:46:12,546 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:46:12,547 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:46:17,942 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:46:17,943 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:46:22,513 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:46:22,514 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:46:27,205 [INFO] Loaded global_relevancy.predict.
+2025-12-30 01:46:35,854 [INFO] Scraper starting with search query: 'GEM/2025/B/6890450'...
+2025-12-30 01:46:35,855 [INFO] DB consumer starting...
+2025-12-30 01:46:55,501 [INFO] Navigating to https://bidplus.gem.gov.in/all-bids ...
+2025-12-30 01:47:01,590 [INFO] Typing search query: GEM/2025/B/6890450
+2025-12-30 01:47:01,707 [INFO] Search submitted. Waiting for results...
+2025-12-30 01:47:04,801 [INFO] Found 1 records across 1 pages.
+2025-12-30 01:47:04,801 [INFO] Scraping page 1...
+2025-12-30 01:47:07,167 [INFO] Found 'View Corrigendum/Representation' link. Clicking it...
+2025-12-30 01:47:09,699 [INFO] Using JS trigger for Corrigendum: view_corrigendum_modal('8587764')
+2025-12-30 01:47:09,700 [INFO] Found View Corrigendum trigger for GEM/2025/B/6890450
+2025-12-30 01:47:09,701 [INFO] Triggering modal via JS: view_corrigendum_modal('8587764')
+2025-12-30 01:47:12,135 [INFO] Saved Corrigendum JSON for GEM/2025/B/6890450
+2025-12-30 01:47:12,136 [INFO] Scraping finished.
+2025-12-30 01:47:12,136 [INFO] Scraper worker done. Shutting down browser.
+2025-12-30 01:47:12,540 [INFO] package: mysql.connector.plugins
+2025-12-30 01:47:12,541 [INFO] package: mysql.connector.plugins
+2025-12-30 01:47:12,541 [INFO] plugin_name: caching_sha2_password
+2025-12-30 01:47:12,542 [INFO] plugin_name: caching_sha2_password
+2025-12-30 01:47:12,542 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 01:47:12,543 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 01:47:12,550 [INFO] package: mysql.connector.plugins
+2025-12-30 01:47:12,551 [INFO] plugin_name: mysql_native_password
+2025-12-30 01:47:12,552 [INFO] package: mysql.connector.plugins
+2025-12-30 01:47:12,553 [INFO] plugin_name: mysql_native_password
+2025-12-30 01:47:12,556 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 01:47:12,556 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 01:47:12,572 [INFO] DB: committed approx 1 rows.
+2025-12-30 01:47:13,579 [INFO] DB consumer shutting down.

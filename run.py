@@ -51,6 +51,11 @@ BATCH_TIMEOUT = 5.0  # seconds
 CSV_SNAPSHOT_EVERY = 600  # seconds
 LOG_FILE = "realtime_scraper.log"
 
+# Output directories for JSON files
+OUTPUT_DIR = "OUTPUT"
+REP_DIR = os.path.join(OUTPUT_DIR, "Representation")
+CORR_DIR = os.path.join(OUTPUT_DIR, "Corrigendum")
+
 # ThreadPool for DB operations (use multiple threads for parallel writes)
 DB_WORKER_THREADS = int(os.getenv("DB_WORKER_THREADS", "6"))
 
@@ -182,8 +187,8 @@ UPSERT_SQL = """
 INSERT INTO gem_tenders
   (page_no, bid_number, detail_url, items, quantity, department, start_date, end_date,
    relevance, relevance_score, match_count, match_relevency, matches, matches_status,
-   relevency_result, main_relevency_score, dept, ra_no, ra_url)
-VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+   relevency_result, main_relevency_score, dept, ra_no, ra_url, Representation_json, Corrigendum_json)
+VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
 ON DUPLICATE KEY UPDATE
   page_no = VALUES(page_no),
   detail_url = VALUES(detail_url),
@@ -201,7 +206,9 @@ ON DUPLICATE KEY UPDATE
   main_relevency_score = VALUES(main_relevency_score),
   dept = VALUES(dept),
   ra_no = VALUES(ra_no),
-  ra_url = VALUES(ra_url)
+  ra_url = VALUES(ra_url),
+  Representation_json = VALUES(Representation_json),
+  Corrigendum_json = VALUES(Corrigendum_json)
 ;
 """
 
@@ -319,6 +326,94 @@ def safe_json_dumps(obj: Any) -> str:
             return json.dumps(str(obj), ensure_ascii=False)
         except Exception:
             return '""'
+
+
+async def extract_modal_data(page, trigger_element):
+    """
+    Clicks trigger, waits for modal, extracts title/tables, closes modal.
+    Returns JSON string or None.
+    """
+    try:
+        # Click the link
+        await trigger_element.click()
+        
+        # Wait for modal visible (GeM uses .modal)
+        # We assume one modal at a time.
+        modal = await page.wait_for_selector("div.modal:visible", state="visible", timeout=4000)
+        if not modal:
+            return None
+            
+        # Give it a moment to populate
+        await asyncio.sleep(1.0)
+        
+        # Header/Title
+        title = ""
+        # Try finding a header inside the modal
+        header_el = await modal.query_selector(".modal-header, .modal-title, h4")
+        if header_el:
+            title = (await header_el.inner_text()).strip()
+            
+        content_data = []
+        
+        # Tables
+        tables = await modal.query_selector_all("table")
+        for tbl in tables:
+            rows = await tbl.query_selector_all("tr")
+            # attempt to detect headers if first row is th
+            # For simplicity, we just dump rows.
+            # But let's try to match user requested format if 2 or 3 columns
+            for r in rows:
+                cols = await r.query_selector_all("td, th")
+                txts = [(await c.inner_text()).strip() for c in cols]
+                
+                if not txts:
+                    continue
+                    
+                if len(txts) == 2:
+                    content_data.append({"label": txts[0], "value": txts[1]})
+                elif len(txts) == 3:
+                     # Corrigendum style?
+                    content_data.append({"field": txts[0], "old": txts[1], "new": txts[2]})
+                else:
+                    content_data.append({"row": txts})
+        
+        # If no table rows found, maybe just paragraphs?
+        if not content_data:
+            ps = await modal.query_selector_all("p")
+            for p in ps:
+                t = (await p.inner_text()).strip()
+                if t:
+                    content_data.append({"text": t})
+
+        result = {
+            "title": title,
+            "content": content_data if "Representation" in title or "Corrigendum" not in title else [],
+            "changes": content_data if "Corrigendum" in title else []
+        }
+        
+        # Fallback if title is empty or ambiguous, put in content
+        if not result["content"] and not result["changes"]:
+             result["content"] = content_data
+
+        # Close
+        close_btn = await modal.query_selector("button.close, button[data-dismiss='modal'], .modal-footer button.btn-default")
+        if close_btn:
+            await close_btn.click()
+        else:
+            await page.keyboard.press("Escape")
+            
+        await page.wait_for_selector("div.modal:visible", state="hidden", timeout=4000)
+        
+        return json.dumps(result, ensure_ascii=False)
+
+    except Exception as e:
+        logger.warning(f"Modal extraction error: {e}")
+        # try escape
+        try:
+            await page.keyboard.press("Escape")
+        except:
+            pass
+        return None
 
 
 async def scrape_single_page_to_rows(page, page_no: int):
@@ -453,6 +548,40 @@ async def scrape_single_page_to_rows(page, page_no: int):
             except Exception:
                 logger.exception("Error extracting RA NO/URL")
 
+            # ---- View Representation / Corrigendum ----
+            rep_json = None
+            corr_json = None
+            try:
+                # Representation
+                # Pattern: <a>View Representation</a>
+                rep_link = await c.query_selector("a:text-is('View Representation')")
+                if rep_link:
+                     rep_json = await extract_modal_data(page, rep_link)
+                     if rep_json:
+                         try:
+                             safe_bid = re.sub(r'[^A-Za-z0-9_-]', '_', bid_no)
+                             fname = os.path.join(REP_DIR, f"{safe_bid}.json")
+                             with open(fname, "w", encoding="utf-8") as f:
+                                 f.write(rep_json)
+                         except Exception:
+                             logger.exception(f"Failed to save Representation JSON for {bid_no}")
+
+                # Corrigendum
+                # Pattern: <a>View Corrigendum</a>
+                corr_link = await c.query_selector("a:text-is('View Corrigendum')")
+                if corr_link:
+                     corr_json = await extract_modal_data(page, corr_link)
+                     if corr_json:
+                         try:
+                             safe_bid = re.sub(r'[^A-Za-z0-9_-]', '_', bid_no)
+                             fname = os.path.join(CORR_DIR, f"{safe_bid}.json")
+                             with open(fname, "w", encoding="utf-8") as f:
+                                 f.write(corr_json)
+                         except Exception:
+                             logger.exception(f"Failed to save Corrigendum JSON for {bid_no}")
+            except Exception:
+                logger.exception("Error extracting modal data")
+
 
 
             # Build gem_tenders tuple (must match UPSERT_SQL order)
@@ -476,6 +605,8 @@ async def scrape_single_page_to_rows(page, page_no: int):
                 global_dept,  # dept
                 ra_no,
                 ra_url,
+                rep_json,
+                corr_json,
             )
             gem_rows.append(gem_row)
 
@@ -564,11 +695,11 @@ async def scraper_worker(queue: asyncio.Queue, interval_seconds: int = 60):
                 )
                 await asyncio.sleep(0.5)
 
-                logger.info(f"Scraper sleeping for {interval_seconds}s.")
-                for _ in range(int(interval_seconds)):
-                    if SHUTDOWN:
-                        break
-                    await asyncio.sleep(1)
+                # logger.info(f"Scraper sleeping for {interval_seconds}s.")
+                # for _ in range(int(interval_seconds)):
+                #     if SHUTDOWN:
+                #         break
+                #     await asyncio.sleep(1)
 
             except Exception:
                 logger.exception("Scraper error — retrying in 10s.")
@@ -680,6 +811,8 @@ async def db_consumer(queue: asyncio.Queue, executor: ThreadPoolExecutor):
                             "dept": r[16],
                             "ra_no": r[17] if len(r) > 17 else "",
                             "ra_url": r[18] if len(r) > 18 else "",
+                            "Representation_json": r[19] if len(r) > 19 else None,
+                            "Corrigendum_json": r[20] if len(r) > 20 else None,
                         }
                         for r in csv_rows_for_snapshot
                     ]
@@ -720,6 +853,10 @@ def handle_signal():
 async def main():
     queue = asyncio.Queue(maxsize=QUEUE_MAXSIZE)
     executor = ThreadPoolExecutor(max_workers=DB_WORKER_THREADS)
+
+    # Ensure output directories exist
+    os.makedirs(REP_DIR, exist_ok=True)
+    os.makedirs(CORR_DIR, exist_ok=True)
 
     # Scraper interval in seconds (tunable)
     SCRAPER_INTERVAL = int(os.getenv("SCRAPER_INTERVAL", "300"))

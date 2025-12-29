@@ -463,3 +463,1914 @@ Traceback (most recent call last):
   File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
 playwright._impl._errors.TargetClosedError: Page.query_selector: Target page, context or browser has been closed
+2025-12-29 21:29:01,105 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-29 21:29:01,740 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2025-12-29 21:29:01,784 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2025-12-29 21:29:02,335 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2025-12-29 21:29:02,523 [INFO] Matcher initialized with loaded KeywordStore.
+2025-12-29 21:30:15,808 [INFO] Use pytorch device_name: cpu
+2025-12-29 21:30:15,809 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 21:30:24,785 [INFO] Use pytorch device_name: cpu
+2025-12-29 21:30:24,786 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 21:30:31,639 [INFO] Use pytorch device_name: cpu
+2025-12-29 21:30:31,641 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 21:30:36,719 [INFO] Loaded global_relevancy.predict successfully.
+2025-12-29 21:30:36,726 [INFO] Scraper starting...
+2025-12-29 21:30:36,727 [INFO] DB consumer starting...
+2025-12-29 21:31:14,356 [INFO] Applying sorting: Bid Start Date -> Latest
+2025-12-29 21:31:16,703 [INFO] Found 38680 records across 3868 pages.
+2025-12-29 21:31:24,801 [INFO] package: mysql.connector.plugins
+2025-12-29 21:31:24,801 [INFO] package: mysql.connector.plugins
+2025-12-29 21:31:24,802 [INFO] plugin_name: caching_sha2_password
+2025-12-29 21:31:24,802 [INFO] plugin_name: caching_sha2_password
+2025-12-29 21:31:24,803 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-29 21:31:24,804 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-29 21:31:24,809 [INFO] package: mysql.connector.plugins
+2025-12-29 21:31:24,810 [INFO] plugin_name: mysql_native_password
+2025-12-29 21:31:24,813 [INFO] package: mysql.connector.plugins
+2025-12-29 21:31:24,814 [INFO] plugin_name: mysql_native_password
+2025-12-29 21:31:24,814 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-29 21:31:24,815 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-29 21:31:24,819 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 21:31:24,836 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 21:31:24,840 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 21:31:30,196 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 21:31:30,220 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 21:31:30,224 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 21:31:37,201 [INFO] Scraper sleeping for 300s.
+2025-12-29 21:35:30,537 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-29 21:35:30,619 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2025-12-29 21:35:30,626 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2025-12-29 21:35:30,847 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2025-12-29 21:35:30,948 [INFO] Matcher initialized with loaded KeywordStore.
+2025-12-29 21:35:44,675 [INFO] Use pytorch device_name: cpu
+2025-12-29 21:35:44,676 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 21:35:50,601 [INFO] Use pytorch device_name: cpu
+2025-12-29 21:35:50,601 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 21:35:55,430 [INFO] Use pytorch device_name: cpu
+2025-12-29 21:35:55,431 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 21:36:00,263 [INFO] Loaded global_relevancy.predict successfully.
+2025-12-29 21:36:00,269 [INFO] Scraper starting...
+2025-12-29 21:36:00,270 [INFO] DB consumer starting...
+2025-12-29 21:36:09,247 [INFO] Applying sorting: Bid Start Date -> Latest
+2025-12-29 21:36:11,634 [INFO] Found 38680 records across 3868 pages.
+2025-12-29 21:36:19,263 [INFO] package: mysql.connector.plugins
+2025-12-29 21:36:19,295 [INFO] plugin_name: caching_sha2_password
+2025-12-29 21:36:19,307 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-29 21:36:19,312 [INFO] package: mysql.connector.plugins
+2025-12-29 21:36:19,313 [INFO] plugin_name: mysql_native_password
+2025-12-29 21:36:19,316 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-29 21:36:19,330 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 21:36:19,341 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 21:36:19,344 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 21:36:25,589 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 21:36:25,608 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 21:36:25,611 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 21:36:29,295 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 21:36:29,305 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 21:36:29,316 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 21:36:39,036 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 21:36:39,045 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 21:36:39,051 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 21:36:45,467 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 21:36:45,489 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 21:36:45,497 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 21:36:48,072 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 21:36:48,087 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 21:36:48,094 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 21:36:56,901 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 21:36:56,908 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 21:36:56,917 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 21:37:02,387 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 21:37:02,402 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 21:37:02,408 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 21:37:05,457 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 21:37:05,476 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 21:37:05,481 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 21:37:13,779 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 21:37:13,786 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 21:37:13,789 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 21:37:19,217 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 21:37:19,239 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 21:37:19,243 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 21:37:21,858 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 21:37:21,872 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 21:37:21,876 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 21:37:30,046 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 21:37:30,052 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 21:37:30,055 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 21:37:35,931 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 21:37:35,942 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 21:37:35,945 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 21:37:38,884 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 21:37:38,898 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 21:37:38,901 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 21:37:46,628 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 21:37:46,636 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 21:37:46,641 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 21:37:52,032 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 21:37:52,044 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 21:37:52,051 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 21:37:54,368 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 21:37:54,379 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 21:37:54,383 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 21:38:02,380 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 21:38:02,388 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 21:38:02,391 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 21:38:08,432 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 21:38:08,446 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 21:38:08,450 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 21:38:11,075 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 21:38:11,089 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 21:38:11,106 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 21:38:18,386 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 21:38:18,391 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 21:38:18,396 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 21:38:24,206 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 21:38:24,224 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 21:38:24,227 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 21:38:26,895 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 21:38:26,906 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 21:38:26,912 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 21:38:34,498 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 21:38:34,507 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 21:38:34,513 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 21:38:40,106 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 21:38:40,125 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 21:38:40,132 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 21:38:41,722 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 21:38:41,728 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 21:38:41,731 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 21:38:48,882 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 21:38:48,890 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 21:38:48,893 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 21:38:54,259 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 21:38:54,275 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 21:38:54,278 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 21:38:56,916 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 21:38:56,927 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 21:38:56,930 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 21:39:04,643 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 21:39:04,648 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 21:39:04,653 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 21:39:06,608 [ERROR] Error scraping a card — skipping it.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 432, in scrape_single_page_to_rows
+    bid_no = (await bid_link.inner_text()).strip() if bid_link else ""
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 1853, in inner_text
+    return mapping.from_maybe_impl(await self._impl_obj.inner_text())
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_element_handle.py", line 82, in inner_text
+    return await self._channel.send("innerText", None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: ElementHandle.inner_text: Target page, context or browser has been closed
+Call log:
+  - waiting for locator(":scope")
+
+2025-12-29 21:39:06,616 [ERROR] Error scraping a card — skipping it.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 431, in scrape_single_page_to_rows
+    bid_link = await c.query_selector(".block_header a.bid_no_hover")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 2877, in query_selector
+    await self._impl_obj.query_selector(selector=selector)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_element_handle.py", line 353, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: ElementHandle.query_selector: Target page, context or browser has been closed
+2025-12-29 21:39:06,625 [ERROR] Error scraping a card — skipping it.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 431, in scrape_single_page_to_rows
+    bid_link = await c.query_selector(".block_header a.bid_no_hover")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 2877, in query_selector
+    await self._impl_obj.query_selector(selector=selector)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_element_handle.py", line 353, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: ElementHandle.query_selector: Target page, context or browser has been closed
+2025-12-29 21:39:06,633 [ERROR] Error scraping a card — skipping it.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 431, in scrape_single_page_to_rows
+    bid_link = await c.query_selector(".block_header a.bid_no_hover")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 2877, in query_selector
+    await self._impl_obj.query_selector(selector=selector)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_element_handle.py", line 353, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: ElementHandle.query_selector: Target page, context or browser has been closed
+2025-12-29 21:39:06,644 [ERROR] Error scraping a card — skipping it.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 431, in scrape_single_page_to_rows
+    bid_link = await c.query_selector(".block_header a.bid_no_hover")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 2877, in query_selector
+    await self._impl_obj.query_selector(selector=selector)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_element_handle.py", line 353, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: ElementHandle.query_selector: Target page, context or browser has been closed
+2025-12-29 21:39:06,652 [ERROR] Error scraping a card — skipping it.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 431, in scrape_single_page_to_rows
+    bid_link = await c.query_selector(".block_header a.bid_no_hover")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 2877, in query_selector
+    await self._impl_obj.query_selector(selector=selector)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_element_handle.py", line 353, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: ElementHandle.query_selector: Target page, context or browser has been closed
+2025-12-29 21:39:06,661 [ERROR] Error scraping a card — skipping it.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 431, in scrape_single_page_to_rows
+    bid_link = await c.query_selector(".block_header a.bid_no_hover")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 2877, in query_selector
+    await self._impl_obj.query_selector(selector=selector)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_element_handle.py", line 353, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: ElementHandle.query_selector: Target page, context or browser has been closed
+2025-12-29 21:39:06,669 [ERROR] Error scraping a card — skipping it.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 431, in scrape_single_page_to_rows
+    bid_link = await c.query_selector(".block_header a.bid_no_hover")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 2877, in query_selector
+    await self._impl_obj.query_selector(selector=selector)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_element_handle.py", line 353, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: ElementHandle.query_selector: Target page, context or browser has been closed
+2025-12-29 21:39:06,676 [ERROR] Error scraping a card — skipping it.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 431, in scrape_single_page_to_rows
+    bid_link = await c.query_selector(".block_header a.bid_no_hover")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 2877, in query_selector
+    await self._impl_obj.query_selector(selector=selector)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_element_handle.py", line 353, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: ElementHandle.query_selector: Target page, context or browser has been closed
+2025-12-29 21:39:06,683 [ERROR] Error scraping a card — skipping it.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 431, in scrape_single_page_to_rows
+    bid_link = await c.query_selector(".block_header a.bid_no_hover")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 2877, in query_selector
+    await self._impl_obj.query_selector(selector=selector)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_element_handle.py", line 353, in query_selector
+    await self._channel.send("querySelector", None, dict(selector=selector))
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: ElementHandle.query_selector: Target page, context or browser has been closed
+2025-12-29 21:39:06,689 [ERROR] Scraper error — retrying in 10s.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 655, in scraper_worker
+    next_btn = await page.query_selector("#light-pagination a.next")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8087, in query_selector
+    await self._impl_obj.query_selector(selector=selector, strict=strict)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_page.py", line 410, in query_selector
+    return await self._main_frame.query_selector(selector, strict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_frame.py", line 348, in query_selector
+    await self._channel.send("querySelector", None, locals_to_params(locals()))
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.query_selector: Target page, context or browser has been closed
+2025-12-29 22:07:48,670 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-29 22:07:48,749 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2025-12-29 22:07:48,756 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2025-12-29 22:07:48,968 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2025-12-29 22:07:49,065 [INFO] Matcher initialized with loaded KeywordStore.
+2025-12-29 22:07:57,098 [INFO] Use pytorch device_name: cpu
+2025-12-29 22:07:57,098 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 22:08:02,450 [INFO] Use pytorch device_name: cpu
+2025-12-29 22:08:02,451 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 22:08:07,265 [INFO] Use pytorch device_name: cpu
+2025-12-29 22:08:07,266 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 22:08:12,486 [INFO] Loaded global_relevancy.predict successfully.
+2025-12-29 22:08:12,489 [INFO] Scraper starting...
+2025-12-29 22:08:12,490 [INFO] DB consumer starting...
+2025-12-29 22:08:24,341 [INFO] Applying sorting: Bid Start Date -> Latest
+2025-12-29 22:08:26,601 [INFO] Found 38698 records across 3870 pages.
+2025-12-29 22:08:32,274 [INFO] package: mysql.connector.plugins
+2025-12-29 22:08:32,300 [INFO] plugin_name: caching_sha2_password
+2025-12-29 22:08:32,315 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-29 22:08:32,320 [INFO] package: mysql.connector.plugins
+2025-12-29 22:08:32,321 [INFO] plugin_name: mysql_native_password
+2025-12-29 22:08:32,325 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-29 22:08:32,337 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:08:32,344 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:08:32,350 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:08:37,828 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:08:37,844 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:08:37,855 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:08:41,669 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:08:41,680 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:08:41,683 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:08:50,446 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:08:50,451 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:08:50,454 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:08:55,858 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:08:55,878 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:08:56,233 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:08:59,432 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:08:59,443 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:08:59,449 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:09:08,017 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:09:08,024 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:09:08,045 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:09:13,401 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:09:13,413 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:09:13,419 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:09:17,119 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:09:17,128 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:09:17,145 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:09:24,894 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:09:24,902 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:09:24,905 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:09:30,374 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:09:30,385 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:09:30,664 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:09:33,320 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:09:33,337 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:09:33,354 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:09:41,165 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:09:41,170 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:09:41,173 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:09:47,210 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:09:47,220 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:09:47,224 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:09:49,700 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:09:49,712 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:09:49,718 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:09:58,122 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:09:58,126 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:09:58,142 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:10:04,062 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:10:04,072 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:10:04,077 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:10:06,248 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:10:06,258 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:10:06,262 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:10:14,153 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:10:14,159 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:10:14,173 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:10:19,534 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:10:19,545 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:10:19,560 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:10:22,111 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:10:22,121 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:10:22,124 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:10:29,908 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:10:29,916 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:10:29,919 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:10:35,367 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:10:35,377 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:10:35,382 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:10:38,607 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:10:38,619 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:10:38,624 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:10:46,742 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:10:46,748 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:10:46,754 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:10:52,276 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:10:52,286 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:10:52,305 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:10:54,886 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:10:54,894 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:10:54,910 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:11:01,642 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:11:01,647 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:11:01,652 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:11:06,977 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:11:06,995 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:11:06,998 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:11:09,217 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:11:09,227 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:11:09,231 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:11:16,170 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:11:16,175 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:11:16,178 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:11:21,523 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:11:21,534 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:11:21,541 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:11:23,915 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:11:23,927 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:11:23,930 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:11:32,756 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:11:32,762 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:11:32,765 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:11:38,578 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:11:38,588 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:11:38,591 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:11:41,791 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:11:41,801 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:11:41,807 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:11:49,970 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:11:49,978 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:11:49,981 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:11:55,393 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:11:55,405 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:11:55,411 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:11:58,521 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:11:58,530 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:11:58,551 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:12:06,659 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:12:06,666 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:12:06,670 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:12:12,199 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:12:12,209 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:12:12,225 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:12:15,183 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:12:15,195 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:12:15,198 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:12:22,829 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:12:22,834 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:12:22,837 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:12:28,682 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:12:28,692 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:12:28,695 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:12:31,450 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:12:31,465 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:12:31,469 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:12:39,096 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:12:39,104 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:12:39,107 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:12:44,548 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:12:44,569 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:12:44,908 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:12:47,740 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:12:47,749 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:12:47,755 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:12:55,461 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:12:55,466 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:12:55,475 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:13:01,007 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:13:01,021 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:13:01,024 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:13:03,573 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:13:03,586 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:13:03,589 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:13:11,331 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:13:11,338 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:13:11,345 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:13:16,915 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:13:16,929 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:13:16,942 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:13:19,330 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:13:19,338 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:13:19,350 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:13:27,472 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:13:27,477 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:13:27,497 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:13:33,125 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:13:33,140 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:13:33,439 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:13:36,065 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:13:36,074 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:13:36,090 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:13:43,998 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:13:44,003 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:13:44,011 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:13:50,045 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:13:50,062 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:13:50,065 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:13:53,403 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:13:53,414 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:13:53,417 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:14:01,499 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:14:01,506 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:14:01,510 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:14:07,032 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:14:07,048 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:14:07,053 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:14:08,909 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:14:08,921 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:14:08,926 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:14:17,545 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:14:17,552 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:14:17,558 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:14:23,162 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:14:23,176 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:14:23,179 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:14:26,005 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:14:26,016 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:14:26,019 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:14:34,052 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:14:34,058 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:14:34,065 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:14:40,512 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:14:40,526 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:14:40,541 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:14:42,486 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:14:42,496 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:14:42,509 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:14:50,456 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:14:50,461 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:14:50,463 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:14:56,704 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:14:56,718 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:14:56,737 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:14:59,454 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:14:59,462 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:14:59,464 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:15:08,112 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:15:08,117 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:15:08,120 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:15:14,004 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:15:14,020 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:15:14,543 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:15:17,159 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:15:17,169 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:15:17,174 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:15:24,648 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:15:24,657 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:15:24,662 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:15:30,792 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:15:30,803 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:15:30,808 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:15:33,464 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:15:33,475 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:15:33,485 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:15:41,886 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:15:41,892 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:15:41,918 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:15:47,436 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:15:47,448 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:15:47,456 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:15:49,892 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:15:49,902 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:15:49,906 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:15:58,636 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:15:58,645 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:15:58,652 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:16:04,114 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:16:04,129 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:16:04,135 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:16:06,622 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:16:06,632 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:16:06,635 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:16:15,712 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:16:15,720 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:16:15,722 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:16:21,780 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:16:21,794 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:16:21,797 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:16:24,546 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:16:24,557 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:16:24,561 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:16:33,320 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:16:33,325 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:16:33,328 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:16:39,251 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:16:39,263 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:16:39,267 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:16:40,985 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:16:40,998 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:16:41,003 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:16:49,161 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:16:49,166 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:16:49,189 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:16:54,811 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:16:54,828 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:16:54,832 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:16:57,064 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:16:57,073 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:16:57,076 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:17:05,987 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:17:05,992 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:17:05,994 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:17:11,357 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:17:11,371 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:17:11,375 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:17:14,108 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:17:14,119 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:17:14,122 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:17:21,960 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:17:21,965 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:17:21,977 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:17:27,466 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:17:27,475 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:17:27,495 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:17:31,265 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:17:31,279 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:17:31,283 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:17:40,153 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:17:40,163 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:17:40,166 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:17:46,269 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:17:46,279 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:17:46,283 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:17:49,215 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:17:49,223 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:17:49,228 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:17:57,573 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:17:57,577 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:17:57,579 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:18:02,891 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:18:02,905 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:18:02,923 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:18:04,214 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:18:04,225 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:18:04,242 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:18:11,723 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:18:11,728 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:18:11,731 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:18:12,804 [INFO] Snapshot saved: snapshot_2025-12-29_22-18-12.csv
+2025-12-29 22:18:17,679 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:18:17,691 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:18:17,695 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:18:20,138 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:18:20,151 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:18:20,154 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:18:28,180 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:18:28,188 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:18:28,191 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:18:33,865 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:18:33,881 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:18:33,884 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:18:35,856 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:18:35,869 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:18:35,873 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:18:43,930 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:18:43,936 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:18:43,939 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:18:49,288 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:18:49,301 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:18:49,304 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:18:52,226 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:18:52,237 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:18:52,243 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:19:01,236 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:19:01,241 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:19:01,258 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:19:07,109 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:19:07,119 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:19:07,122 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:19:10,022 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:19:10,032 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:19:10,036 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:19:17,301 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:19:17,304 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:19:17,313 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:19:23,216 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:19:23,233 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:19:23,240 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:19:25,342 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:19:25,355 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:19:25,359 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:19:31,830 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:19:31,834 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:19:31,835 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:19:36,414 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:19:36,425 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:19:36,428 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:19:40,954 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:19:40,961 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:19:40,973 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:19:45,573 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:19:45,583 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:19:45,594 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:19:50,627 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:19:50,635 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:19:50,653 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:19:55,640 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:19:55,649 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:19:55,655 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:20:01,426 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:20:01,439 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:20:01,444 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:20:03,865 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:20:03,873 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:20:03,876 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:20:12,106 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:20:12,115 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:20:12,121 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:20:17,627 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:20:17,638 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:20:17,644 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:20:20,864 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:20:20,878 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:20:20,881 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:20:29,249 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:20:29,255 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:20:29,260 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:20:34,921 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:20:34,931 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:20:34,954 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:20:37,629 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:20:37,639 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:20:37,643 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:20:45,855 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:20:45,862 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:20:45,865 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:20:51,893 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:20:51,908 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:20:52,892 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:20:55,488 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:20:55,498 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:20:55,501 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:21:04,166 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:21:04,172 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:21:04,175 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:21:10,024 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:21:10,042 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:21:10,052 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:21:12,517 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:21:12,527 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:21:12,541 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:21:20,070 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:21:20,076 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:21:20,079 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:21:25,726 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:21:25,735 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:21:25,743 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:21:28,034 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:21:28,044 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:21:28,047 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:21:35,809 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:21:35,817 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:21:35,822 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:21:41,715 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:21:41,730 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:21:41,740 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:21:45,468 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:21:45,478 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:21:45,482 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:21:52,992 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:21:52,996 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:21:52,999 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:21:58,950 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:21:58,961 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:21:59,127 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:22:01,840 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:22:01,849 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:22:01,854 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:22:06,966 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:22:06,977 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:22:06,988 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:22:11,812 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:22:11,819 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:22:11,821 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:22:17,071 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:22:17,075 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:22:17,077 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:22:22,462 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:22:22,470 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:22:22,490 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:22:27,890 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:22:27,898 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:22:27,905 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:22:32,868 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:22:32,877 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:22:32,895 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:22:38,093 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:22:38,104 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:22:38,106 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:22:42,636 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:22:42,643 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:22:42,653 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:22:47,723 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:22:47,727 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:22:47,728 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:22:52,466 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:22:52,473 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:22:52,474 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:22:57,545 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:22:57,553 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:22:57,559 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:23:02,194 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:23:02,201 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:23:02,203 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:23:06,686 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:23:06,693 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:23:06,696 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:23:11,550 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:23:11,559 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:23:11,561 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:23:16,288 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:23:16,294 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:23:16,296 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:23:21,284 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:23:21,298 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:23:21,301 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:23:26,272 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:23:26,279 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:23:26,282 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:23:31,142 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:23:31,149 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:23:31,151 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:23:35,961 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:23:35,969 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:23:35,984 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:23:40,337 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:23:40,345 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:23:40,349 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:23:44,998 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:23:45,005 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:23:45,015 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:23:49,715 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:23:49,721 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:23:49,723 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:23:54,520 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:23:54,528 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:23:54,530 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:23:59,499 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:23:59,506 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:23:59,508 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:24:04,223 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:24:04,233 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:24:04,237 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:24:09,256 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:24:09,261 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:24:09,266 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:24:14,455 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:24:14,464 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:24:14,467 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:24:19,294 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:24:19,301 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:24:19,303 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:24:23,937 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:24:23,943 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:24:23,956 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:24:28,638 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:24:28,645 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:24:28,651 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:24:33,197 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:24:33,202 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:24:33,221 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:24:38,095 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:24:38,102 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:24:38,108 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:24:42,627 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:24:42,633 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:24:42,634 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:24:47,816 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:24:47,823 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:24:47,825 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:24:52,591 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:24:52,598 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:24:52,600 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:24:57,211 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:24:57,216 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:24:57,220 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:25:01,892 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:25:01,898 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:25:01,900 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:25:06,890 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:25:06,899 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:25:06,901 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:25:11,855 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:25:11,860 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:25:11,861 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:25:16,441 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:25:16,446 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:25:16,447 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:25:21,032 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:25:21,038 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:25:21,040 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:25:25,832 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:25:25,838 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:25:25,840 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:25:30,984 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:25:30,992 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:25:30,993 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:25:35,686 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:25:35,696 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:25:35,710 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:25:41,014 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:25:41,022 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:25:41,026 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:25:41,189 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:25:41,195 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:25:41,200 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:25:45,702 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:25:45,708 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:25:45,716 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:25:50,444 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:25:50,451 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:25:50,456 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:25:55,287 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:25:55,297 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:25:55,299 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:25:59,607 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:25:59,614 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:25:59,620 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:26:04,399 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:26:04,411 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:26:04,414 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:26:10,430 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:26:10,434 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:26:10,437 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:26:16,201 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:26:16,210 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:26:16,213 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:26:16,812 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:26:16,819 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:26:16,824 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:26:21,946 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:26:21,953 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:26:21,954 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:26:27,583 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:26:27,586 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:26:27,597 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:26:33,088 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:26:33,100 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:26:33,105 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:26:33,323 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:26:33,329 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:26:33,333 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:26:38,729 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:26:38,734 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:26:38,736 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:26:43,992 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:26:44,003 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:26:44,008 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:26:45,118 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:26:45,127 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:26:45,130 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:26:51,021 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:26:51,024 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:26:51,030 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:26:56,274 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:26:56,284 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:26:56,287 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:26:57,190 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:26:57,194 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:26:57,196 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:27:02,981 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:27:02,985 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:27:02,989 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:27:08,482 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:27:08,492 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:27:08,506 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:27:08,988 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:27:08,998 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:27:09,000 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:27:13,981 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:27:13,991 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:27:13,995 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:27:21,551 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:27:21,556 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:27:21,577 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:27:27,004 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:27:27,021 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:27:27,024 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:27:30,014 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:27:30,026 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:27:30,032 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:27:38,217 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:27:38,224 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:27:38,232 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:27:43,870 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:27:43,883 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:27:43,898 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:27:45,593 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:27:45,603 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:27:45,609 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:27:53,006 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:27:53,011 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:27:53,020 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:27:58,424 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:27:58,434 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:27:58,445 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:28:01,030 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:28:01,040 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:28:01,044 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:28:07,593 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:28:07,597 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:28:07,598 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:35:39,923 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-29 22:35:40,002 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2025-12-29 22:35:40,009 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2025-12-29 22:35:40,222 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2025-12-29 22:35:40,316 [INFO] Matcher initialized with loaded KeywordStore.
+2025-12-29 22:35:48,947 [INFO] Use pytorch device_name: cpu
+2025-12-29 22:35:48,947 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 22:35:54,617 [INFO] Use pytorch device_name: cpu
+2025-12-29 22:35:54,617 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 22:35:59,868 [INFO] Use pytorch device_name: cpu
+2025-12-29 22:35:59,868 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 22:36:04,511 [INFO] Loaded global_relevancy.predict successfully.
+2025-12-29 22:36:04,525 [INFO] Scraper starting...
+2025-12-29 22:36:04,527 [INFO] DB consumer starting...
+2025-12-29 22:36:12,925 [INFO] Applying sorting: Bid Start Date -> Latest
+2025-12-29 22:36:15,168 [INFO] Found 38717 records across 3872 pages.
+2025-12-29 22:36:20,106 [INFO] package: mysql.connector.plugins
+2025-12-29 22:36:20,122 [INFO] plugin_name: caching_sha2_password
+2025-12-29 22:36:20,142 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-29 22:36:20,147 [INFO] package: mysql.connector.plugins
+2025-12-29 22:36:20,148 [INFO] plugin_name: mysql_native_password
+2025-12-29 22:36:20,151 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-29 22:36:20,158 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:36:20,163 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:36:20,165 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:36:25,293 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:36:25,301 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:36:25,303 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:36:30,819 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:36:30,826 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:36:30,828 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:36:31,445 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:36:31,455 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:36:31,460 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:36:37,389 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:36:37,393 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:36:37,401 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:36:42,692 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:36:42,704 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:36:42,709 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:36:43,119 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:36:43,127 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:36:43,147 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:36:49,304 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:36:49,310 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:36:49,312 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:36:54,264 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:36:54,272 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:36:54,275 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:36:59,584 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:36:59,589 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:36:59,610 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:36:59,777 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:36:59,788 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:36:59,790 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:37:04,827 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:37:04,835 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:37:04,837 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:37:09,591 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:37:09,598 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:37:09,600 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:37:14,673 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:37:14,683 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:37:14,686 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:37:19,632 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:37:19,640 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:37:19,649 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:37:24,449 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:37:24,454 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:37:24,456 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:37:29,071 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:37:29,079 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:37:29,099 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:37:33,564 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:37:33,573 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:37:33,591 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:37:38,481 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:37:38,488 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:37:38,494 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:37:43,397 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:37:43,402 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:37:43,403 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:37:48,191 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:37:48,198 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:37:48,201 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:37:52,553 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:37:52,559 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:37:52,562 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:37:57,250 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:37:57,256 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:37:57,258 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:38:01,794 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:38:01,802 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:38:01,808 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:38:06,634 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:38:06,648 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:38:06,652 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:38:11,475 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:38:11,480 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:38:11,482 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:38:16,433 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:38:16,438 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:38:16,440 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:38:21,280 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:38:21,285 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:38:21,289 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:38:26,301 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:38:26,307 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:38:26,309 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:38:31,008 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:38:31,015 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:38:31,019 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:38:35,578 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:38:35,584 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:38:35,585 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:38:40,216 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:38:40,222 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:38:40,224 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:38:45,163 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:38:45,173 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:38:45,176 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:38:49,871 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:38:49,879 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:38:49,881 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:38:54,751 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:38:54,759 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:38:54,762 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:38:59,567 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:38:59,574 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:38:59,575 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:39:04,140 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:39:04,149 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:39:04,158 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:39:08,893 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:39:08,899 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:39:08,900 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:39:13,582 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:39:13,590 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:39:13,594 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:39:18,361 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:39:18,366 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:39:18,368 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:39:23,086 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:39:23,093 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:39:23,096 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:39:27,796 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:39:27,802 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:39:27,804 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:39:33,121 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:39:33,124 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:39:33,138 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:39:37,841 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:39:37,845 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:39:37,847 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:39:42,755 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:39:42,764 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:39:42,766 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:39:47,745 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:39:47,756 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:39:47,762 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:39:52,683 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:39:52,692 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:39:52,697 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:39:57,514 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:39:57,521 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:39:57,525 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:40:02,371 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:40:02,376 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:40:02,378 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:40:07,326 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:40:07,333 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:40:07,334 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:40:12,512 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:40:12,518 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:40:12,525 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:40:17,409 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:40:17,420 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:40:17,426 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:40:22,471 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:40:22,481 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:40:22,484 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:40:27,664 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:40:27,670 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:40:27,672 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:40:43,340 [INFO] Scraper sleeping for 300s.
+2025-12-29 22:44:48,058 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-29 22:44:48,150 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2025-12-29 22:44:48,158 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2025-12-29 22:44:48,419 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2025-12-29 22:44:48,522 [INFO] Matcher initialized with loaded KeywordStore.
+2025-12-29 22:44:51,014 [INFO] FakeTensor cache stats:
+2025-12-29 22:44:51,016 [INFO]   cache_hits: 0
+2025-12-29 22:44:51,017 [INFO]   cache_misses: 0
+2025-12-29 22:46:57,703 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-29 22:46:57,781 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2025-12-29 22:46:57,788 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2025-12-29 22:46:58,044 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2025-12-29 22:46:58,132 [INFO] Matcher initialized with loaded KeywordStore.
+2025-12-29 22:47:05,921 [INFO] Use pytorch device_name: cpu
+2025-12-29 22:47:05,921 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 22:47:13,440 [INFO] Use pytorch device_name: cpu
+2025-12-29 22:47:13,441 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 22:47:20,403 [INFO] Use pytorch device_name: cpu
+2025-12-29 22:47:20,404 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-29 22:47:28,064 [INFO] Loaded global_relevancy.predict successfully.
+2025-12-29 22:47:28,069 [INFO] Scraper starting...
+2025-12-29 22:47:28,069 [INFO] DB consumer starting...
+2025-12-29 22:47:40,060 [INFO] Applying sorting: Bid Start Date -> Latest
+2025-12-29 22:47:42,309 [INFO] Found 39200 records across 3920 pages.
+2025-12-29 22:47:46,302 [INFO] package: mysql.connector.plugins
+2025-12-29 22:47:46,313 [INFO] plugin_name: caching_sha2_password
+2025-12-29 22:47:46,349 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-29 22:47:46,367 [INFO] package: mysql.connector.plugins
+2025-12-29 22:47:46,368 [INFO] plugin_name: mysql_native_password
+2025-12-29 22:47:46,371 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-29 22:47:46,375 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:47:46,379 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:47:46,388 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:47:51,585 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:47:51,594 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:47:51,596 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:47:58,050 [INFO] Applying sorting: Bid Start Date -> Latest
+2025-12-29 22:48:00,217 [INFO] Found 39200 records across 3920 pages.
+2025-12-29 22:48:04,474 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:48:04,477 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:48:04,495 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:48:09,841 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:48:09,848 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:48:09,867 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:48:10,287 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:48:10,295 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:48:10,297 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:48:15,509 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:48:15,511 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:48:15,524 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:48:20,877 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:48:20,887 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:48:20,889 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:48:21,051 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:48:21,057 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:48:21,058 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:48:26,828 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:48:26,831 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:48:26,836 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:48:31,901 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:48:31,907 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:48:31,923 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:48:36,647 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:48:36,653 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:48:36,656 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:48:41,579 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:48:41,585 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:48:41,586 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:48:46,408 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:48:46,416 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:48:46,418 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:48:51,646 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:48:51,655 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:48:51,671 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:48:56,725 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:48:56,734 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:48:56,739 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:49:01,308 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:49:01,316 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:49:01,321 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:49:06,369 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:49:06,374 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:49:06,380 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:49:11,147 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:49:11,155 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:49:11,159 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:49:15,731 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:49:15,737 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:49:15,749 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:49:20,774 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:49:20,782 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:49:20,784 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:49:25,503 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:49:25,511 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:49:25,516 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:49:30,494 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:49:30,500 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:49:30,502 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:49:34,851 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:49:34,858 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:49:34,860 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:49:39,426 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:49:39,434 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:49:39,436 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:49:44,096 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:49:44,104 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:49:44,115 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:49:49,036 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:49:49,041 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:49:49,043 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:49:54,003 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:49:54,011 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:49:54,016 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:49:59,143 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:49:59,154 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:49:59,158 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:50:03,995 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:50:04,000 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:50:04,004 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:50:08,938 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:50:08,946 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:50:08,951 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:50:13,764 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:50:13,772 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:50:13,775 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:50:18,386 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:50:18,394 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:50:18,397 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:50:23,107 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:50:23,114 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:50:23,116 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:50:27,796 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:50:27,802 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:50:27,814 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:50:32,633 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:50:32,639 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:50:32,642 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:50:37,681 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:50:37,687 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:50:37,689 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:50:42,363 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:50:42,369 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:50:42,371 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:50:47,062 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:50:47,068 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:50:47,069 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:50:51,820 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:50:51,826 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:50:51,833 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:50:56,929 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:50:56,935 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:50:56,937 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:51:01,758 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:51:01,765 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:51:01,769 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:51:06,870 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:51:06,879 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:51:06,882 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:51:11,677 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:51:11,683 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:51:11,688 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:51:16,772 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:51:16,779 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:51:16,787 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:51:21,630 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:51:21,638 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:51:21,640 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:51:26,507 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:51:26,514 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:51:26,516 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:51:31,225 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:51:31,232 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:51:31,243 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:51:36,224 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:51:36,230 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:51:36,232 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:51:41,357 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:51:41,364 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:51:41,375 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:51:46,500 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:51:46,507 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:51:46,510 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:51:51,667 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:51:51,677 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:51:51,679 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:51:51,838 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:51:51,843 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:51:51,848 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:51:57,179 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:51:57,182 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:51:57,185 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:52:02,043 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:52:02,051 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:52:02,060 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:52:07,150 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:52:07,157 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:52:07,159 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:52:12,048 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:52:12,055 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:52:12,058 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:52:17,195 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:52:17,201 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:52:17,205 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:52:22,006 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:52:22,011 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:52:22,012 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:52:26,908 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:52:26,914 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:52:26,916 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:52:32,055 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:52:32,062 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:52:32,064 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:52:36,803 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:52:36,812 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:52:36,815 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:52:42,318 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:52:42,325 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:52:42,341 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:52:47,152 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:52:47,158 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:52:47,168 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:52:52,457 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:52:52,463 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:52:52,465 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:52:57,196 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:52:57,206 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:52:57,210 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:53:02,319 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:53:02,327 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:53:02,329 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:53:07,027 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:53:07,034 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:53:07,035 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:53:12,474 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:53:12,481 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:53:12,482 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:53:17,345 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:53:17,353 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:53:17,355 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:53:22,704 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:53:22,712 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:53:22,715 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:53:27,878 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:53:27,889 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:53:27,892 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:53:32,984 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:53:32,990 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:53:32,993 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:53:38,144 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:53:38,152 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:53:38,154 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:53:38,494 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:53:38,500 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:53:38,502 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:53:43,514 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:53:43,522 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:53:43,529 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:53:48,053 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:53:48,059 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:53:48,065 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:53:52,777 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:53:52,785 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:53:52,789 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:53:57,405 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:53:57,413 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:53:57,417 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:54:02,336 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:54:02,344 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:54:02,345 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:54:07,127 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:54:07,134 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:54:07,139 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:54:11,829 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:54:11,835 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:54:11,839 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:54:16,945 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:54:16,952 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:54:16,954 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:54:22,280 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:54:22,286 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:54:22,289 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:54:27,705 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:54:27,716 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:54:27,720 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:54:32,882 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:54:32,888 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:54:32,890 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:54:37,874 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:54:37,880 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:54:37,881 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:54:43,111 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:54:43,117 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:54:43,119 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:54:47,898 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:54:47,906 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:54:47,911 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:54:52,359 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:54:52,364 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:54:52,368 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:54:56,951 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:54:56,959 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:54:56,962 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:55:02,033 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:55:02,044 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:55:02,047 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:55:07,317 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:55:07,327 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:55:07,341 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:55:09,622 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:55:09,632 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:55:09,648 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:55:17,274 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:55:17,282 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:55:17,286 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:55:22,684 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:55:22,696 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:55:22,700 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:55:34,472 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:55:34,479 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:55:34,482 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:55:39,800 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:55:39,827 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:55:40,209 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:55:42,146 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:55:42,156 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:55:42,159 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:55:49,973 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:55:49,979 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:55:49,982 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:55:55,574 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:55:55,582 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:55:55,590 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:55:57,897 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:55:57,907 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:55:57,910 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:56:05,946 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:56:05,951 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:56:05,954 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:56:11,358 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:56:11,371 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:56:11,374 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:56:13,309 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:56:13,318 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:56:13,331 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:56:21,470 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:56:21,473 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:56:21,497 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:56:26,915 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:56:26,927 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:56:26,930 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:56:28,990 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:56:28,999 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:56:29,002 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:56:36,328 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:56:36,334 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:56:36,341 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:56:41,714 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:56:41,722 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:56:41,740 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:56:43,451 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:56:43,458 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:56:43,461 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:56:50,214 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:56:50,219 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:56:50,227 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:56:55,968 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:56:55,976 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:56:55,988 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:56:56,964 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:56:56,971 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:56:56,974 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:57:04,733 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:57:04,738 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:57:04,747 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:57:10,343 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:57:10,353 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:57:10,358 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:57:12,074 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:57:12,083 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:57:12,086 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:57:18,722 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:57:18,727 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:57:18,730 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:57:25,045 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:57:25,053 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:57:25,060 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:57:26,779 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:57:26,787 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:57:26,790 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:57:28,882 [INFO] Snapshot saved: snapshot_2025-12-29_22-57-28.csv
+2025-12-29 22:57:33,648 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:57:33,653 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:57:33,655 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:57:39,084 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:57:39,089 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:57:39,095 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:57:40,642 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:57:40,651 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:57:40,654 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:57:47,582 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:57:47,587 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:57:47,590 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:57:53,023 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:57:53,030 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:57:53,032 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:57:54,402 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:57:54,412 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:57:54,416 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:58:00,461 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:58:00,465 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:58:00,467 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:58:06,066 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:58:06,073 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:58:06,089 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:58:07,297 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:58:07,306 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:58:07,320 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:58:13,628 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:58:13,635 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:58:13,638 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:58:19,286 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:58:19,298 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:58:19,301 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:58:19,822 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:58:19,832 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:58:19,835 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:58:26,617 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:58:26,621 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:58:26,627 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:58:31,995 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:58:32,003 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:58:32,007 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:58:33,344 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:58:33,352 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:58:33,355 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:58:39,240 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:58:39,245 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:58:39,248 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:58:44,598 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:58:44,604 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:58:44,608 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:58:45,210 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:58:45,220 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:58:45,228 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:58:51,548 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:58:51,552 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:58:51,569 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:58:56,847 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:58:56,861 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:58:56,864 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:58:58,168 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:58:58,175 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:58:58,177 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:59:04,372 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:59:04,377 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:59:04,379 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:59:10,443 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:59:10,460 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:59:10,462 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:59:11,066 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:59:11,078 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:59:11,081 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:59:18,098 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:59:18,103 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:59:18,112 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:59:23,820 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:59:23,831 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:59:23,848 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:59:25,003 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:59:25,015 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:59:25,019 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:59:30,733 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:59:30,739 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:59:30,742 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:59:36,390 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:59:36,397 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:59:36,415 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:59:37,098 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:59:37,108 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:59:37,115 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:59:42,869 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:59:42,873 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:59:42,888 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 22:59:48,361 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 22:59:48,373 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 22:59:48,376 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 22:59:48,972 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 22:59:48,980 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 22:59:48,982 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 22:59:56,617 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 22:59:56,623 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 22:59:56,628 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 23:00:02,002 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 23:00:02,009 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 23:00:02,022 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 23:00:03,436 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 23:00:03,447 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 23:00:03,451 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 23:00:10,469 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 23:00:10,474 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 23:00:10,482 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 23:00:15,741 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 23:00:15,751 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 23:00:15,763 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 23:00:18,142 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 23:00:18,149 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 23:00:18,151 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 23:00:24,940 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 23:00:24,944 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 23:00:24,954 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 23:00:30,436 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 23:00:30,442 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 23:00:30,448 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 23:00:30,909 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 23:00:30,919 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 23:00:30,921 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 23:00:36,764 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 23:00:36,769 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 23:00:36,771 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 23:00:42,319 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 23:00:42,331 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 23:00:42,472 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 23:00:42,666 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 23:00:42,673 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 23:00:42,675 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 23:00:48,522 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 23:00:48,526 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 23:00:48,530 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 23:00:53,847 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 23:00:53,863 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 23:00:53,868 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 23:00:54,457 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 23:00:54,466 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 23:00:54,468 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 23:01:01,247 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 23:01:01,253 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 23:01:01,257 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 23:01:07,009 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 23:01:07,016 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 23:01:07,032 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 23:01:07,542 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 23:01:07,551 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 23:01:07,553 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 23:01:13,753 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 23:01:13,758 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 23:01:13,772 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 23:01:19,167 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 23:01:19,174 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 23:01:19,190 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 23:01:20,017 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 23:01:20,025 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 23:01:20,027 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 23:01:26,195 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 23:01:26,199 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 23:01:26,215 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 23:01:31,503 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 23:01:31,510 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 23:01:31,521 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 23:01:33,007 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 23:01:33,017 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 23:01:33,019 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 23:01:39,156 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-29 23:01:39,160 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-29 23:01:39,163 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-29 23:01:44,627 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-29 23:01:44,636 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-29 23:01:44,639 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-29 23:01:45,521 [INFO] Attempting to insert 10 rows into Main_Relevency...
+2025-12-29 23:01:45,529 [INFO] Successfully inserted 10 rows into Main_Relevency.
+2025-12-29 23:01:45,534 [INFO] DB: committed approx 20 rows (gem + main).
+2025-12-29 23:01:47,241 [ERROR] Scraper error — retrying in 10s.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 683, in scraper_worker
+    gem_rows, main_rows = await scrape_single_page_to_rows(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        page, page_no
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 427, in scrape_single_page_to_rows
+    await page.mouse.wheel(0, 2000)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 1590, in wheel
+    await self._impl_obj.wheel(deltaX=delta_x, deltaY=delta_y)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_input.py", line 101, in wheel
+    await self._channel.send("mouseWheel", None, locals_to_params(locals()))
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Mouse.wheel: Target page, context or browser has been closed
+2025-12-30 01:29:28,359 [INFO] Loaded ML relevancy model and vectorizer.
+2025-12-30 01:29:28,434 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2025-12-30 01:29:28,441 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2025-12-30 01:29:28,661 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2025-12-30 01:29:28,758 [INFO] Matcher initialized with loaded KeywordStore.
+2025-12-30 01:29:37,404 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:29:37,405 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:29:43,651 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:29:43,651 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:29:48,732 [INFO] Use pytorch device_name: cpu
+2025-12-30 01:29:48,733 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-12-30 01:29:53,544 [INFO] Loaded global_relevancy.predict successfully.
+2025-12-30 01:29:53,551 [INFO] Scraper starting...
+2025-12-30 01:29:53,553 [INFO] DB consumer starting...
+2025-12-30 01:30:02,371 [INFO] Applying sorting: Bid Start Date -> Latest
+2025-12-30 01:30:04,784 [INFO] Found 39219 records across 3922 pages.
+2025-12-30 01:30:13,172 [INFO] package: mysql.connector.plugins
+2025-12-30 01:30:13,224 [INFO] plugin_name: caching_sha2_password
+2025-12-30 01:30:13,240 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 01:30:13,249 [INFO] package: mysql.connector.plugins
+2025-12-30 01:30:13,249 [INFO] plugin_name: mysql_native_password
+2025-12-30 01:30:13,254 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-12-30 01:30:13,270 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2025-12-30 01:30:13,283 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2025-12-30 01:30:13,286 [INFO] DB: committed approx 2 rows (gem + main).
+2025-12-30 01:30:18,778 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2025-12-30 01:30:18,800 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2025-12-30 01:30:18,803 [INFO] DB: committed approx 18 rows (gem + main).
+2025-12-30 01:30:18,816 [ERROR] Error scraping a card — skipping it.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 446, in scrape_single_page_to_rows
+    items = (await item_el.inner_text()).strip() if item_el else ""
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 1853, in inner_text
+    return mapping.from_maybe_impl(await self._impl_obj.inner_text())
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_element_handle.py", line 82, in inner_text
+    return await self._channel.send("innerText", None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: ElementHandle.inner_text: Target page, context or browser has been closed
+Call log:
+  - waiting for locator(":scope")
+
+2025-12-30 01:30:18,826 [ERROR] Scraper error — retrying in 10s.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 676, in scraper_worker
+    next_btn = await page.query_selector("#light-pagination a.next")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8087, in query_selector
+    await self._impl_obj.query_selector(selector=selector, strict=strict)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_page.py", line 410, in query_selector
+    return await self._main_frame.query_selector(selector, strict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_frame.py", line 348, in query_selector
+    await self._channel.send("querySelector", None, locals_to_params(locals()))
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.query_selector: Target page, context or browser has been closed
