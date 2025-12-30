@@ -18,46 +18,38 @@ from celery_worker import app
 # ---------------------------
 # ML IMPORTS (Lazy load or explicit)
 # ---------------------------
-import sys
-import joblib
-import numpy as np
+# ML Imports moved to inside calculate_relevancy to prevent memory bloat on PDF workers
+# import sys
+# import joblib
+# import numpy as np
 
 # Add relevency/scripts to path found in run.py logic:
 GLOBAL_RELEVANCY_DIR = os.path.join(os.path.dirname(__file__), "relevency", "scripts")
-if GLOBAL_RELEVANCY_DIR not in sys.path:
-    sys.path.append(GLOBAL_RELEVANCY_DIR)
+# if GLOBAL_RELEVANCY_DIR not in sys.path:
+#     sys.path.append(GLOBAL_RELEVANCY_DIR)
 
-try:
-    from global_relevancy import predict as global_predict
-    # Load Matcher
-    from app.matching.datastore import KeywordStore
-    from app.matching.matcher import Matcher
+# try:
+#     from global_relevancy import predict as global_predict
+#     # Load Matcher
+#     from app.matching.datastore import KeywordStore
+#     from app.matching.matcher import Matcher
     
-    # Initialize Matcher
-    BACKEND_DIR = os.path.join(os.path.dirname(__file__), "app")
-    DATA_DIR = os.path.join(BACKEND_DIR, "data")
-    STORE = KeywordStore()
+#     # Initialize Matcher
+#     BACKEND_DIR = os.path.join(os.path.dirname(__file__), "app")
+#     DATA_DIR = os.path.join(BACKEND_DIR, "data")
+#     STORE = KeywordStore()
     
-    # Try loading all CSVs
-    for csv_name in ["keywords_diagnostic.csv", "keywords_endo.csv", "keywords_sheet1.csv"]:
-        csv_path = os.path.join(DATA_DIR, csv_name)
-        if os.path.exists(csv_path):
-            cat = "Diagnostic" if "diagnostic" in csv_name else ("Endo" if "endo" in csv_name else "Overall")
-            STORE.load_csv(csv_path, category=cat)
+#     # Try loading all CSVs
+#     for csv_name in ["keywords_diagnostic.csv", "keywords_endo.csv", "keywords_sheet1.csv"]:
+#         csv_path = os.path.join(DATA_DIR, csv_name)
+#         if os.path.exists(csv_path):
+#             cat = "Diagnostic" if "diagnostic" in csv_name else ("Endo" if "endo" in csv_name else "Overall")
+#             STORE.load_csv(csv_path, category=cat)
             
-    MATCHER = Matcher(STORE)
+#     MATCHER = Matcher(STORE)
     
-    MATCHER = Matcher(STORE)
-    
-except Exception as e:
-    # If ML libs are missing (e.g. running outside Docker without full deps), we handle gracefully
-    import traceback
-    traceback.print_exc()
-    print(f"FAILED TO IMPORT ML MODELS: {e}")
-    print(f"Current Sys Path: {sys.path}")
-    print(f"Listing directories to debug:")
-    try:
-        print(f"relevency/scripts contents: {os.listdir(GLOBAL_RELEVANCY_DIR)}")
+# except Exception as e:
+#     pass
         print(f"app/matching contents: {os.listdir(os.path.join(os.path.dirname(__file__), 'app', 'matching'))}")
     except Exception as dir_err:
         print(f"Could not list directories: {dir_err}")
