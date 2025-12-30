@@ -18,8 +18,8 @@ services:
       - CELERY_HOST=redis
       - REDIS_URL=redis://redis:6379/0
       - DB_HOST=host.docker.internal
-      - DB_USER=root
-      - DB_PASSWORD=
+      - DB_USER=tender_user
+      - DB_PASSWORD=StrongPassword@123
       - DB_NAME=tender_automation_with_ai
     volumes:
       # Map current directory to /app so we can see OUTPUT/ logs etc
