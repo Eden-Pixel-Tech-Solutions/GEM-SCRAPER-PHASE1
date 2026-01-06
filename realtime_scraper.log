@@ -6570,3 +6570,277 @@ Traceback (most recent call last):
   File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
 playwright._impl._errors.TargetClosedError: Page.query_selector: Target page, context or browser has been closed
+2026-01-02 00:26:10,218 [INFO] Loaded ML relevancy model and vectorizer.
+2026-01-02 00:26:10,693 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2026-01-02 00:26:10,746 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2026-01-02 00:26:10,989 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2026-01-02 00:26:11,114 [INFO] Matcher initialized with loaded KeywordStore.
+2026-01-02 00:27:03,478 [INFO] Use pytorch device_name: cpu
+2026-01-02 00:27:03,485 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-02 00:27:09,837 [INFO] Use pytorch device_name: cpu
+2026-01-02 00:27:09,838 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-02 00:27:14,838 [INFO] Use pytorch device_name: cpu
+2026-01-02 00:27:14,838 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-02 00:27:19,836 [INFO] Loaded global_relevancy.predict successfully.
+2026-01-02 00:27:19,842 [INFO] Scraper starting...
+2026-01-02 00:27:19,844 [INFO] DB consumer starting...
+2026-01-02 00:27:43,652 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-02 00:27:45,984 [INFO] Found 38032 records across 3804 pages.
+2026-01-02 00:27:53,967 [INFO] Found Representation JS trigger on element: view_representation_modal(8783576)
+2026-01-02 00:27:53,967 [INFO] Triggering modal via JS: view_representation_modal(8783576)
+2026-01-02 00:27:55,575 [INFO] Saved Representation JSON for GEM/2025/B/6823723
+2026-01-02 00:28:01,154 [INFO] Found Representation JS trigger on element: view_representation_modal(8783574)
+2026-01-02 00:28:01,154 [INFO] Triggering modal via JS: view_representation_modal(8783574)
+2026-01-02 00:28:02,758 [INFO] Saved Representation JSON for GEM/2025/B/6808731
+2026-01-02 00:28:19,448 [INFO] package: mysql.connector.plugins
+2026-01-02 00:28:19,448 [INFO] package: mysql.connector.plugins
+2026-01-02 00:28:19,449 [INFO] plugin_name: caching_sha2_password
+2026-01-02 00:28:19,449 [INFO] plugin_name: caching_sha2_password
+2026-01-02 00:28:19,449 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-02 00:28:19,449 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-02 00:28:19,454 [INFO] package: mysql.connector.plugins
+2026-01-02 00:28:19,454 [INFO] plugin_name: sha256_password
+2026-01-02 00:28:19,455 [INFO] package: mysql.connector.plugins
+2026-01-02 00:28:19,456 [INFO] plugin_name: sha256_password
+2026-01-02 00:28:19,458 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLSHA256PasswordAuthPlugin
+2026-01-02 00:28:19,458 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLSHA256PasswordAuthPlugin
+2026-01-02 00:28:19,468 [ERROR] DB worker raised an exception.
+NoneType: None
+2026-01-02 00:28:19,469 [ERROR] DB worker raised an exception.
+NoneType: None
+2026-01-02 00:28:19,469 [INFO] DB: committed approx 0 rows (gem + main).
+2026-01-02 00:28:27,809 [ERROR] Connection to Redis lost: Retry (0/20) now.
+2026-01-02 00:28:31,890 [ERROR] Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-01-02 00:28:36,963 [ERROR] Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-01-02 00:28:42,030 [ERROR] Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-01-02 00:28:47,097 [ERROR] Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-01-02 00:28:52,160 [ERROR] Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-01-03 14:47:56,660 [INFO] Loaded ML relevancy model and vectorizer.
+2026-01-03 14:47:56,962 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2026-01-03 14:47:56,980 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2026-01-03 14:47:57,088 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2026-01-03 14:47:57,133 [INFO] Matcher initialized with loaded KeywordStore.
+2026-01-03 14:48:38,091 [INFO] Use pytorch device_name: cpu
+2026-01-03 14:48:38,091 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-03 14:48:38,123 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 0c3378d9-452a-4d2a-9a43-201956a655f0)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./modules.json
+2026-01-03 14:48:38,124 [WARNING] Retrying in 1s [Retry 1/5].
+2026-01-03 14:48:39,126 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: cb0048d3-f4b6-4d56-83c9-50b448bd9c94)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./modules.json
+2026-01-03 14:48:39,126 [WARNING] Retrying in 2s [Retry 2/5].
+2026-01-03 14:48:41,129 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: e0cfc573-5f92-497d-a2f0-0ce2e8ba2c96)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./modules.json
+2026-01-03 14:48:41,131 [WARNING] Retrying in 4s [Retry 3/5].
+2026-01-03 14:48:45,134 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 6ad26bff-a351-4885-88ba-aa7182de437a)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./modules.json
+2026-01-03 14:48:45,136 [WARNING] Retrying in 8s [Retry 4/5].
+2026-01-03 14:48:53,143 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: a02c90af-0be3-414e-9f8b-13529feb3683)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./modules.json
+2026-01-03 14:48:53,144 [WARNING] Retrying in 8s [Retry 5/5].
+2026-01-03 14:49:01,146 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 666943fb-02aa-46b4-9456-8a997adc8991)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./modules.json
+2026-01-03 14:49:01,183 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: d46d6c37-fdcb-4e19-ab5b-0218e8c90f74)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./config_sentence_transformers.json
+2026-01-03 14:49:01,184 [WARNING] Retrying in 1s [Retry 1/5].
+2026-01-03 14:49:02,186 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 80fbee63-529b-498c-90b4-83554e988063)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./config_sentence_transformers.json
+2026-01-03 14:49:02,187 [WARNING] Retrying in 2s [Retry 2/5].
+2026-01-03 14:49:04,189 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 7000c924-55ad-43ff-b6c2-2986458c2669)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./config_sentence_transformers.json
+2026-01-03 14:49:04,189 [WARNING] Retrying in 4s [Retry 3/5].
+2026-01-03 14:49:08,191 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 8e303d2a-26a7-4038-9e09-2e20eb4e9e62)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./config_sentence_transformers.json
+2026-01-03 14:49:08,191 [WARNING] Retrying in 8s [Retry 4/5].
+2026-01-03 14:49:16,195 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 95c92d42-9d3a-4a5c-87c6-a6041835b904)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./config_sentence_transformers.json
+2026-01-03 14:49:16,195 [WARNING] Retrying in 8s [Retry 5/5].
+2026-01-03 14:50:04,853 [INFO] Loaded ML relevancy model and vectorizer.
+2026-01-03 14:50:04,886 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2026-01-03 14:50:04,889 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2026-01-03 14:50:04,975 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2026-01-03 14:50:05,019 [INFO] Matcher initialized with loaded KeywordStore.
+2026-01-03 14:50:08,474 [INFO] Use pytorch device_name: cpu
+2026-01-03 14:50:08,474 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-03 14:50:08,480 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: f2cf7e51-3e83-4ff4-994c-dc726b48d768)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./modules.json
+2026-01-03 14:50:08,481 [WARNING] Retrying in 1s [Retry 1/5].
+2026-01-03 14:50:09,482 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 60e80810-5961-4e1c-a56d-e2dffcec5bef)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./modules.json
+2026-01-03 14:50:09,483 [WARNING] Retrying in 2s [Retry 2/5].
+2026-01-03 14:50:11,486 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 47362521-86b2-4bf9-ac0f-8dc974e54295)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./modules.json
+2026-01-03 14:50:11,487 [WARNING] Retrying in 4s [Retry 3/5].
+2026-01-03 14:50:15,490 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: d8db80f2-62fa-47a2-ba19-b3f7bb62ff17)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./modules.json
+2026-01-03 14:50:15,491 [WARNING] Retrying in 8s [Retry 4/5].
+2026-01-03 14:50:23,493 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: cecbf5ac-1369-491d-8f09-c3c0e85928c3)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./modules.json
+2026-01-03 14:50:23,494 [WARNING] Retrying in 8s [Retry 5/5].
+2026-01-03 14:50:31,499 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: c7f3fee7-2533-4988-967d-0d9e71057066)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./modules.json
+2026-01-03 14:50:31,503 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 7278b034-4a3f-468d-9034-f064dab1371c)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./config_sentence_transformers.json
+2026-01-03 14:50:31,504 [WARNING] Retrying in 1s [Retry 1/5].
+2026-01-03 14:50:32,506 [WARNING] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: ab9c4084-6945-4186-81cd-79506690cfa1)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/./config_sentence_transformers.json
+2026-01-03 14:50:32,506 [WARNING] Retrying in 2s [Retry 2/5].
+2026-01-03 23:55:01,905 [INFO] Loaded ML relevancy model and vectorizer.
+2026-01-03 23:55:02,579 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2026-01-03 23:55:02,804 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2026-01-03 23:55:03,186 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2026-01-03 23:55:03,257 [INFO] Matcher initialized with loaded KeywordStore.
+2026-01-03 23:56:06,242 [INFO] Loaded ML relevancy model and vectorizer.
+2026-01-03 23:56:06,293 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2026-01-03 23:56:06,298 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2026-01-03 23:56:06,454 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2026-01-03 23:56:06,516 [INFO] Matcher initialized with loaded KeywordStore.
+2026-01-03 23:56:16,220 [INFO] Use pytorch device_name: cpu
+2026-01-03 23:56:16,220 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-03 23:56:22,500 [INFO] Use pytorch device_name: cpu
+2026-01-03 23:56:22,500 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-03 23:56:27,322 [INFO] Use pytorch device_name: cpu
+2026-01-03 23:56:27,324 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-03 23:56:31,859 [INFO] Loaded global_relevancy.predict successfully.
+2026-01-03 23:56:31,872 [INFO] Scraper starting...
+2026-01-03 23:56:31,899 [INFO] DB consumer starting...
+2026-01-03 23:56:50,765 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-03 23:56:53,091 [INFO] Found 37763 records across 3777 pages.
+2026-01-03 23:57:00,838 [INFO] Found Representation JS trigger on element: view_representation_modal(8791998)
+2026-01-03 23:57:00,839 [INFO] Triggering modal via JS: view_representation_modal(8791998)
+2026-01-03 23:57:03,275 [INFO] Saved Representation JSON for GEM/2025/B/6706490
+2026-01-03 23:57:19,132 [INFO] Found Representation JS trigger on element: view_representation_modal(8791901)
+2026-01-03 23:57:19,132 [INFO] Triggering modal via JS: view_representation_modal(8791901)
+2026-01-03 23:57:20,654 [INFO] Saved Representation JSON for GEM/2025/B/6941396
+2026-01-03 23:57:25,953 [INFO] package: mysql.connector.plugins
+2026-01-03 23:57:25,954 [INFO] package: mysql.connector.plugins
+2026-01-03 23:57:25,954 [INFO] plugin_name: caching_sha2_password
+2026-01-03 23:57:25,954 [INFO] plugin_name: caching_sha2_password
+2026-01-03 23:57:25,954 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-03 23:57:25,955 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-03 23:57:25,958 [INFO] package: mysql.connector.plugins
+2026-01-03 23:57:25,962 [INFO] package: mysql.connector.plugins
+2026-01-03 23:57:25,963 [INFO] plugin_name: mysql_native_password
+2026-01-03 23:57:25,963 [INFO] plugin_name: mysql_native_password
+2026-01-03 23:57:25,966 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-03 23:57:25,967 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-03 23:57:25,974 [ERROR] DB worker raised an exception.
+NoneType: None
+2026-01-03 23:57:25,976 [ERROR] DB worker raised an exception.
+NoneType: None
+2026-01-03 23:57:25,978 [INFO] DB: committed approx 0 rows (gem + main).
+2026-01-03 23:57:34,445 [ERROR] Connection to Redis lost: Retry (0/20) now.
+2026-01-03 23:57:38,534 [ERROR] Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-01-03 23:57:43,606 [ERROR] Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-01-03 23:57:48,704 [ERROR] Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-01-03 23:57:53,797 [ERROR] Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-01-03 23:57:58,897 [ERROR] Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-01-03 23:58:03,995 [ERROR] Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-01-03 23:58:09,100 [ERROR] Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-01-03 23:58:14,177 [ERROR] Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-01-03 23:58:19,278 [ERROR] Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-01-03 23:58:24,377 [ERROR] Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-01-03 23:58:29,459 [ERROR] Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-01-03 23:58:34,544 [ERROR] Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-01-03 23:58:39,629 [INFO] Received stop signal — shutting down...
+2026-01-03 23:58:52,614 [INFO] Loaded ML relevancy model and vectorizer.
+2026-01-03 23:58:52,670 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2026-01-03 23:58:52,675 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2026-01-03 23:58:52,807 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2026-01-03 23:58:52,875 [INFO] Matcher initialized with loaded KeywordStore.
+2026-01-03 23:59:00,113 [INFO] Use pytorch device_name: cpu
+2026-01-03 23:59:00,113 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-03 23:59:07,361 [INFO] Use pytorch device_name: cpu
+2026-01-03 23:59:07,361 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-03 23:59:11,819 [INFO] Use pytorch device_name: cpu
+2026-01-03 23:59:11,819 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-03 23:59:16,633 [INFO] Loaded global_relevancy.predict successfully.
+2026-01-03 23:59:16,637 [INFO] Scraper starting...
+2026-01-03 23:59:16,637 [INFO] DB consumer starting...
+2026-01-03 23:59:24,909 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-03 23:59:27,112 [INFO] Found 37763 records across 3777 pages.
+2026-01-03 23:59:33,321 [INFO] Found Representation JS trigger on element: view_representation_modal(8791998)
+2026-01-03 23:59:33,322 [INFO] Triggering modal via JS: view_representation_modal(8791998)
+2026-01-03 23:59:35,152 [INFO] Saved Representation JSON for GEM/2025/B/6706490
+2026-01-03 23:59:51,695 [INFO] Found Representation JS trigger on element: view_representation_modal(8791901)
+2026-01-03 23:59:51,696 [INFO] Triggering modal via JS: view_representation_modal(8791901)
+2026-01-03 23:59:53,271 [INFO] Saved Representation JSON for GEM/2025/B/6941396
+2026-01-03 23:59:59,016 [INFO] package: mysql.connector.plugins
+2026-01-03 23:59:59,017 [INFO] plugin_name: caching_sha2_password
+2026-01-03 23:59:59,017 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-03 23:59:59,019 [INFO] package: mysql.connector.plugins
+2026-01-03 23:59:59,019 [INFO] plugin_name: mysql_native_password
+2026-01-03 23:59:59,021 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-03 23:59:59,029 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-03 23:59:59,051 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-03 23:59:59,052 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-04 00:00:07,397 [ERROR] Connection to Redis lost: Retry (0/20) now.
+2026-01-04 00:00:11,530 [ERROR] Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-01-04 00:00:16,619 [ERROR] Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-01-04 00:00:21,688 [ERROR] Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-01-04 00:00:26,797 [ERROR] Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-01-04 00:00:31,871 [ERROR] Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-01-04 00:00:36,982 [ERROR] Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-01-04 00:00:42,077 [ERROR] Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-01-04 00:00:47,170 [ERROR] Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-01-04 00:00:52,240 [ERROR] Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-01-04 00:00:57,317 [ERROR] Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-01-04 00:01:02,399 [ERROR] Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-01-04 00:01:07,459 [ERROR] Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-01-04 00:01:12,516 [ERROR] Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-01-04 00:01:17,616 [ERROR] Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-01-04 00:01:18,702 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-04 00:01:24,550 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-04 00:01:24,563 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-04 00:01:24,565 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-04 00:01:24,601 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-04 00:01:30,713 [INFO] Found Representation JS trigger on element: view_representation_modal(8791943)
+2026-01-04 00:01:30,714 [INFO] Triggering modal via JS: view_representation_modal(8791943)
+2026-01-04 00:01:33,082 [INFO] Saved Representation JSON for GEM/2025/B/6983021
+2026-01-04 00:01:34,424 [INFO] Received stop signal — shutting down...
+2026-01-04 00:01:35,425 [INFO] Shutdown requested via KeyboardInterrupt
+2026-01-04 00:01:55,441 [INFO] Loaded ML relevancy model and vectorizer.
+2026-01-04 00:01:55,548 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2026-01-04 00:01:55,557 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2026-01-04 00:01:55,730 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2026-01-04 00:01:55,808 [INFO] Matcher initialized with loaded KeywordStore.
+2026-01-04 00:02:04,698 [INFO] Use pytorch device_name: cpu
+2026-01-04 00:02:04,698 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-04 00:02:09,739 [INFO] Use pytorch device_name: cpu
+2026-01-04 00:02:09,739 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-04 00:02:14,059 [INFO] Use pytorch device_name: cpu
+2026-01-04 00:02:14,060 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-04 00:02:18,366 [INFO] Loaded global_relevancy.predict successfully.
+2026-01-04 00:02:18,369 [INFO] Scraper starting...
+2026-01-04 00:02:18,370 [INFO] DB consumer starting...
+2026-01-04 00:02:25,059 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-04 00:02:27,324 [INFO] Found 37764 records across 3777 pages.
+2026-01-04 00:02:36,569 [INFO] Found Representation JS trigger on element: view_representation_modal(8791998)
+2026-01-04 00:02:36,570 [INFO] Triggering modal via JS: view_representation_modal(8791998)
+2026-01-04 00:02:38,121 [INFO] Saved Representation JSON for GEM/2025/B/6706490
+2026-01-04 00:03:01,298 [INFO] Found Representation JS trigger on element: view_representation_modal(8791901)
+2026-01-04 00:03:01,300 [INFO] Triggering modal via JS: view_representation_modal(8791901)
+2026-01-04 00:03:03,147 [INFO] Saved Representation JSON for GEM/2025/B/6941396
+2026-01-04 00:03:07,143 [INFO] package: mysql.connector.plugins
+2026-01-04 00:03:07,146 [INFO] plugin_name: caching_sha2_password
+2026-01-04 00:03:07,148 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-04 00:03:07,152 [INFO] package: mysql.connector.plugins
+2026-01-04 00:03:07,152 [INFO] plugin_name: mysql_native_password
+2026-01-04 00:03:07,153 [INFO] package: mysql.connector.plugins
+2026-01-04 00:03:07,154 [INFO] plugin_name: mysql_native_password
+2026-01-04 00:03:07,156 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-04 00:03:07,156 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-04 00:03:07,159 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-04 00:03:07,168 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-04 00:03:07,170 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-04 00:03:07,610 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-04 00:03:12,857 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-04 00:03:12,869 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-04 00:03:12,875 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-04 00:03:13,253 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-04 00:03:20,401 [INFO] Found Representation JS trigger on element: view_representation_modal(8791943)
+2026-01-04 00:03:20,404 [INFO] Triggering modal via JS: view_representation_modal(8791943)
+2026-01-04 00:03:22,388 [INFO] Saved Representation JSON for GEM/2025/B/6983021
+2026-01-04 00:03:37,681 [INFO] Found Representation JS trigger on element: view_representation_modal(8791939)
+2026-01-04 00:03:37,683 [INFO] Triggering modal via JS: view_representation_modal(8791939)
+2026-01-04 00:03:39,763 [INFO] Saved Representation JSON for GEM/2025/B/6849003
+2026-01-04 00:03:49,658 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-04 00:03:49,662 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-04 00:03:49,668 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-04 00:03:49,672 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-04 00:03:55,253 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-04 00:03:55,261 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-04 00:03:55,263 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-04 00:03:55,278 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-04 00:04:01,072 [INFO] Found Representation JS trigger on element: view_representation_modal(8791732)
+2026-01-04 00:04:01,073 [INFO] Triggering modal via JS: view_representation_modal(8791732)
+2026-01-04 00:04:02,714 [INFO] Saved Representation JSON for GEM/2025/B/7029253
+2026-01-04 00:04:23,656 [INFO] Found Representation JS trigger on element: view_representation_modal(8791839)
+2026-01-04 00:04:23,657 [INFO] Triggering modal via JS: view_representation_modal(8791839)
+2026-01-04 00:04:25,613 [INFO] Saved Representation JSON for GEM/2025/B/7025578
+2026-01-04 00:04:29,758 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-04 00:04:29,761 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-04 00:04:29,763 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-04 00:04:29,766 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-04 00:04:34,036 [INFO] Received stop signal — shutting down...
+2026-01-04 00:04:35,037 [INFO] Shutdown requested via KeyboardInterrupt

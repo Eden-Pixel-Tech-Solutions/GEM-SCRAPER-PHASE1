@@ -63,8 +63,8 @@ DB_WORKER_THREADS = int(os.getenv("DB_WORKER_THREADS", "6"))
 # DB config (override via env vars if you like)
 DB_CONFIG = {
     "host": os.getenv("DB_HOST", "localhost"),
-    "user": os.getenv("DB_USER", "tender_user"),
-    "password": os.getenv("DB_PASSWORD", "StrongPassword@123"),
+    "user": os.getenv("DB_USER", "root"),
+    "password": os.getenv("DB_PASSWORD", ""),
     "database": os.getenv("DB_NAME", "tender_automation_with_ai"),
     "autocommit": False,
     "charset": "utf8mb4",

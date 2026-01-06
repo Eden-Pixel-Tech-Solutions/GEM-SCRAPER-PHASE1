@@ -50,12 +50,12 @@ GLOBAL_RELEVANCY_DIR = os.path.join(os.path.dirname(__file__), "relevency", "scr
     
 # except Exception as e:
 #     pass
-        print(f"app/matching contents: {os.listdir(os.path.join(os.path.dirname(__file__), 'app', 'matching'))}")
-    except Exception as dir_err:
-        print(f"Could not list directories: {dir_err}")
+#         print(f"app/matching contents: {os.listdir(os.path.join(os.path.dirname(__file__), 'app', 'matching'))}")
+#     except Exception as dir_err:
+#         print(f"Could not list directories: {dir_err}")
 
-    global_predict = None
-    MATCHER = None
+global_predict = None
+MATCHER = None
 
 
 # ---------------------------
