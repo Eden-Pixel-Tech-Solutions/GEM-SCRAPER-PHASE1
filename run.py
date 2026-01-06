@@ -214,7 +214,7 @@ ON DUPLICATE KEY UPDATE
 """
 
 # SQL for inserting into Main_Relevency (batched)
-MAIN_RELEVANCY_INSERT_SQL = """
+main_relevancy_INSERT_SQL = """
 INSERT INTO Main_Relevency
   (bid_number, query, detected_category, relevancy_score, relevant, best_match, top_matches)
 VALUES (%s, %s, %s, %s, %s, %s, %s)
@@ -262,7 +262,7 @@ def db_insert_main_relevancy(rows: List[Tuple[Any, ...]]) -> int:
     try:
         if rows:
             logger.info(f"Attempting to insert {len(rows)} rows into Main_Relevency...")
-        cur.executemany(MAIN_RELEVANCY_INSERT_SQL, rows)
+        cur.executemany(main_relevancy_INSERT_SQL, rows)
         conn.commit()
         if rows:
             logger.info(f"Successfully inserted {len(rows)} rows into Main_Relevency.")
@@ -467,7 +467,7 @@ async def scrape_single_page_to_rows(page, page_no: int):
     """
     Scrape visible cards on `page` and return:
       - gem_rows: list of tuples matching UPSERT_SQL order
-      - main_rows: list of tuples matching MAIN_RELEVANCY_INSERT_SQL
+      - main_rows: list of tuples matching main_relevancy_INSERT_SQL
     """
     # scroll a bit to ensure lazy elements load
     for _ in range(3):
