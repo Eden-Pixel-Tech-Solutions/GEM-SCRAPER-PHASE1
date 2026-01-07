@@ -6844,3 +6844,262 @@ NoneType: None
 2026-01-04 00:04:29,766 [INFO] Queued 1 tasks to Redis/Docker.
 2026-01-04 00:04:34,036 [INFO] Received stop signal — shutting down...
 2026-01-04 00:04:35,037 [INFO] Shutdown requested via KeyboardInterrupt
+2026-01-07 16:09:37,025 [INFO] Loaded ML relevancy model and vectorizer.
+2026-01-07 16:09:37,726 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2026-01-07 16:09:37,771 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2026-01-07 16:09:38,232 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2026-01-07 16:09:38,390 [INFO] Matcher initialized with loaded KeywordStore.
+2026-01-07 16:11:09,936 [INFO] Use pytorch device_name: cpu
+2026-01-07 16:11:09,937 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-07 16:11:22,700 [INFO] Use pytorch device_name: cpu
+2026-01-07 16:11:22,700 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-07 16:11:27,813 [INFO] Use pytorch device_name: cpu
+2026-01-07 16:11:27,813 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-07 16:11:33,475 [INFO] Loaded global_relevancy.predict successfully.
+2026-01-07 16:11:33,487 [INFO] Status Dashboard running at http://localhost:8000
+2026-01-07 16:11:33,488 [INFO] Scraper starting...
+2026-01-07 16:11:33,490 [INFO] DB consumer starting...
+2026-01-07 16:12:08,543 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-07 16:12:11,130 [INFO] Found 39198 records across 3920 pages.
+2026-01-07 16:12:30,177 [INFO] Found Representation JS trigger on element: view_representation_modal(8808602)
+2026-01-07 16:12:30,179 [INFO] Triggering modal via JS: view_representation_modal(8808602)
+2026-01-07 16:12:31,821 [INFO] Saved Representation JSON for GEM/2025/B/6057827
+2026-01-07 16:12:37,743 [INFO] Found Representation JS trigger on element: view_representation_modal(8808584)
+2026-01-07 16:12:37,744 [INFO] Triggering modal via JS: view_representation_modal(8808584)
+2026-01-07 16:12:39,421 [INFO] Saved Representation JSON for GEM/2025/B/6059710
+2026-01-07 16:12:49,581 [INFO] package: mysql.connector.plugins
+2026-01-07 16:12:49,583 [INFO] plugin_name: caching_sha2_password
+2026-01-07 16:12:49,584 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-07 16:12:49,589 [INFO] package: mysql.connector.plugins
+2026-01-07 16:12:49,590 [INFO] plugin_name: mysql_native_password
+2026-01-07 16:12:49,594 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-07 16:12:49,609 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:12:49,701 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:12:49,707 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:12:50,308 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:12:55,725 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:12:55,749 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:12:55,752 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:12:55,814 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:13:02,761 [INFO] Found Representation JS trigger on element: view_representation_modal(8808813)
+2026-01-07 16:13:02,761 [INFO] Triggering modal via JS: view_representation_modal(8808813)
+2026-01-07 16:13:04,465 [INFO] Saved Representation JSON for GEM/2025/B/6920740
+2026-01-07 16:13:07,582 [INFO] Found Representation JS trigger on element: view_representation_modal(8808788)
+2026-01-07 16:13:07,585 [INFO] Triggering modal via JS: view_representation_modal(8808788)
+2026-01-07 16:13:09,271 [INFO] Saved Representation JSON for GEM/2025/B/6921181
+2026-01-07 16:13:12,154 [INFO] Found Representation JS trigger on element: view_representation_modal(8808780)
+2026-01-07 16:13:12,155 [INFO] Triggering modal via JS: view_representation_modal(8808780)
+2026-01-07 16:13:13,786 [INFO] Saved Representation JSON for GEM/2025/B/6921262
+2026-01-07 16:13:26,303 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:13:26,313 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:13:26,338 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:13:26,352 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:13:31,627 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:13:31,644 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:13:31,654 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:13:31,703 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:13:52,284 [INFO] Found Representation JS trigger on element: view_representation_modal(8809028)
+2026-01-07 16:13:52,285 [INFO] Triggering modal via JS: view_representation_modal(8809028)
+2026-01-07 16:13:53,964 [INFO] Saved Representation JSON for GEM/2025/B/6950265
+2026-01-07 16:14:00,957 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:14:00,964 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:14:00,967 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:14:00,975 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:14:06,281 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:14:06,295 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:14:06,305 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:14:06,348 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:14:21,521 [INFO] Found Representation JS trigger on element: view_representation_modal(8808905)
+2026-01-07 16:14:21,522 [INFO] Triggering modal via JS: view_representation_modal(8808905)
+2026-01-07 16:14:23,128 [INFO] Saved Representation JSON for GEM/2025/B/7012779
+2026-01-07 16:14:46,065 [INFO] Found Representation JS trigger on element: view_representation_modal(8808813)
+2026-01-07 16:14:46,066 [INFO] Triggering modal via JS: view_representation_modal(8808813)
+2026-01-07 16:14:47,699 [INFO] Saved Representation JSON for GEM/2025/B/6920740
+2026-01-07 16:14:48,060 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:14:48,072 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:14:48,076 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:14:48,086 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:14:53,402 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:14:53,409 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:14:53,416 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:14:53,473 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:15:06,405 [INFO] Found Representation JS trigger on element: view_representation_modal(8809028)
+2026-01-07 16:15:06,406 [INFO] Triggering modal via JS: view_representation_modal(8809028)
+2026-01-07 16:15:08,051 [INFO] Saved Representation JSON for GEM/2025/B/6950265
+2026-01-07 16:15:27,124 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:15:27,134 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:15:27,137 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:15:27,147 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:15:32,516 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:15:32,536 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:15:32,542 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:15:32,598 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:16:09,912 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:16:09,917 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:16:09,926 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:16:09,934 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:16:14,935 [INFO] Found Representation JS trigger on element: view_representation_modal(8808109)
+2026-01-07 16:16:14,936 [INFO] Triggering modal via JS: view_representation_modal(8808109)
+2026-01-07 16:16:15,520 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:16:15,541 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:16:15,544 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:16:15,607 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:16:16,550 [INFO] Saved Representation JSON for GEM/2025/B/6947249
+2026-01-07 16:16:49,701 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:16:49,708 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:16:49,713 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:16:49,720 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:16:55,058 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:16:55,067 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:16:55,069 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:16:55,113 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:17:02,040 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-07 16:17:04,333 [INFO] Found 39332 records across 3934 pages.
+2026-01-07 16:17:10,494 [INFO] Received stop signal — shutting down...
+2026-01-07 16:17:11,497 [INFO] Shutdown requested via KeyboardInterrupt
+2026-01-07 16:17:26,674 [INFO] Loaded ML relevancy model and vectorizer.
+2026-01-07 16:17:26,841 [INFO] Loaded Diagnostic keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_diagnostic.csv
+2026-01-07 16:17:26,858 [INFO] Loaded Endo keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_endo.csv
+2026-01-07 16:17:27,360 [INFO] Loaded Overall keywords: C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\app\data\keywords_sheet1.csv
+2026-01-07 16:17:27,551 [INFO] Matcher initialized with loaded KeywordStore.
+2026-01-07 16:17:42,962 [INFO] Use pytorch device_name: cpu
+2026-01-07 16:17:42,963 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-07 16:18:00,865 [INFO] Use pytorch device_name: cpu
+2026-01-07 16:18:00,865 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-07 16:18:15,552 [INFO] Use pytorch device_name: cpu
+2026-01-07 16:18:15,555 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-01-07 16:18:24,047 [INFO] Loaded global_relevancy.predict successfully.
+2026-01-07 16:18:24,056 [INFO] Status Dashboard running at http://localhost:8000
+2026-01-07 16:18:24,057 [INFO] Scraper starting...
+2026-01-07 16:18:24,058 [INFO] DB consumer starting...
+2026-01-07 16:18:33,967 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-07 16:18:36,522 [INFO] Found 39332 records across 3934 pages.
+2026-01-07 16:19:16,575 [INFO] package: mysql.connector.plugins
+2026-01-07 16:19:16,585 [INFO] plugin_name: caching_sha2_password
+2026-01-07 16:19:16,586 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-07 16:19:16,591 [INFO] package: mysql.connector.plugins
+2026-01-07 16:19:16,592 [INFO] plugin_name: mysql_native_password
+2026-01-07 16:19:16,596 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-07 16:19:16,609 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:19:16,623 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:19:16,627 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:19:17,103 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:19:22,667 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:19:22,688 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:19:22,691 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:19:22,743 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:19:29,717 [INFO] Found Representation JS trigger on element: view_representation_modal(8808602)
+2026-01-07 16:19:29,718 [INFO] Triggering modal via JS: view_representation_modal(8808602)
+2026-01-07 16:19:31,393 [INFO] Saved Representation JSON for GEM/2025/B/6057827
+2026-01-07 16:19:37,381 [INFO] Found Representation JS trigger on element: view_representation_modal(8808584)
+2026-01-07 16:19:37,381 [INFO] Triggering modal via JS: view_representation_modal(8808584)
+2026-01-07 16:19:39,011 [INFO] Saved Representation JSON for GEM/2025/B/6059710
+2026-01-07 16:19:51,227 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:19:51,236 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:19:51,241 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:19:51,249 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:19:56,780 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:19:56,793 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:19:57,091 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:19:57,169 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:20:25,020 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:20:25,028 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:20:25,032 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:20:25,041 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:20:30,779 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:20:30,794 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:20:30,801 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:20:30,848 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:20:46,359 [INFO] Found Representation JS trigger on element: view_representation_modal(8809028)
+2026-01-07 16:20:46,359 [INFO] Triggering modal via JS: view_representation_modal(8809028)
+2026-01-07 16:20:48,014 [INFO] Saved Representation JSON for GEM/2025/B/6950265
+2026-01-07 16:21:01,203 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:21:01,210 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:21:01,215 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:21:01,223 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:21:06,752 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:21:06,764 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:21:06,774 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:21:06,824 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:21:13,260 [INFO] Found Representation JS trigger on element: view_representation_modal(8808905)
+2026-01-07 16:21:13,260 [INFO] Triggering modal via JS: view_representation_modal(8808905)
+2026-01-07 16:21:14,800 [INFO] Saved Representation JSON for GEM/2025/B/7012779
+2026-01-07 16:21:35,317 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:21:35,325 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:21:35,328 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:21:35,334 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:21:40,794 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:21:40,803 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:21:40,806 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:21:40,840 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:21:57,545 [INFO] Found Representation JS trigger on element: view_representation_modal(8809028)
+2026-01-07 16:21:57,546 [INFO] Triggering modal via JS: view_representation_modal(8809028)
+2026-01-07 16:21:59,175 [INFO] Saved Representation JSON for GEM/2025/B/6950265
+2026-01-07 16:22:08,756 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:22:08,761 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:22:08,763 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:22:08,771 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:22:13,631 [INFO] Found Representation JS trigger on element: view_representation_modal(8808109)
+2026-01-07 16:22:13,632 [INFO] Triggering modal via JS: view_representation_modal(8808109)
+2026-01-07 16:22:14,284 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:22:14,302 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:22:14,305 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:22:14,347 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:22:15,301 [INFO] Saved Representation JSON for GEM/2025/B/6947249
+2026-01-07 16:22:43,246 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:22:43,252 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:22:43,263 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:22:43,269 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:22:48,437 [INFO] Found Representation JS trigger on element: view_representation_modal(8808109)
+2026-01-07 16:22:48,438 [INFO] Triggering modal via JS: view_representation_modal(8808109)
+2026-01-07 16:22:48,915 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:22:48,927 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:22:48,930 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:22:48,975 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:22:50,239 [INFO] Saved Representation JSON for GEM/2025/B/6947249
+2026-01-07 16:23:16,850 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:23:16,853 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:23:16,856 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:23:16,862 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:23:22,430 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:23:22,452 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:23:22,789 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:23:22,839 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:24:12,437 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:24:12,442 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:24:12,444 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:24:12,452 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:24:17,964 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:24:18,008 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:24:18,011 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:24:18,045 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:24:39,742 [INFO] Found Representation JS trigger on element: view_representation_modal(8808405)
+2026-01-07 16:24:39,743 [INFO] Triggering modal via JS: view_representation_modal(8808405)
+2026-01-07 16:24:41,445 [INFO] Saved Representation JSON for GEM/2025/B/6960951
+2026-01-07 16:24:48,693 [INFO] Found Representation JS trigger on element: view_representation_modal(8808255)
+2026-01-07 16:24:48,694 [INFO] Triggering modal via JS: view_representation_modal(8808255)
+2026-01-07 16:24:50,288 [INFO] Saved Representation JSON for GEM/2025/B/6966113
+2026-01-07 16:24:53,588 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:24:53,592 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:24:53,598 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:24:53,604 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:24:59,073 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:24:59,082 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:24:59,315 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:24:59,350 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:25:09,065 [INFO] Found Representation JS trigger on element: view_representation_modal(8808346)
+2026-01-07 16:25:09,065 [INFO] Triggering modal via JS: view_representation_modal(8808346)
+2026-01-07 16:25:10,609 [INFO] Saved Representation JSON for GEM/2025/B/6468280
+2026-01-07 16:25:13,375 [INFO] Found Representation JS trigger on element: view_representation_modal(8808042)
+2026-01-07 16:25:13,376 [INFO] Triggering modal via JS: view_representation_modal(8808042)
+2026-01-07 16:25:15,013 [INFO] Saved Representation JSON for GEM/2025/B/6813902
+2026-01-07 16:25:34,861 [INFO] Attempting to insert 1 rows into Main_Relevency...
+2026-01-07 16:25:34,866 [INFO] Successfully inserted 1 rows into Main_Relevency.
+2026-01-07 16:25:34,869 [INFO] DB: committed approx 2 rows (gem + main).
+2026-01-07 16:25:34,876 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-07 16:25:40,280 [INFO] Attempting to insert 9 rows into Main_Relevency...
+2026-01-07 16:25:40,287 [INFO] Successfully inserted 9 rows into Main_Relevency.
+2026-01-07 16:25:40,289 [INFO] DB: committed approx 18 rows (gem + main).
+2026-01-07 16:25:40,323 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-07 16:25:40,964 [INFO] Received stop signal — shutting down...
+2026-01-07 16:25:41,965 [INFO] Shutdown requested via KeyboardInterrupt

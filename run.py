@@ -36,11 +36,87 @@ faulthandler.enable()
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from typing import List, Tuple, Dict, Any, Optional
+import collections
+import http.server
+import socketserver
+import threading
+import io
+import logging # Added import
 
 import mysql.connector
 import pandas as pd
 from playwright.async_api import async_playwright
 from tasks import process_tender, calculate_relevancy
+
+# ---------------------------
+# GLOBAL STATUS & SERVER CONFIG
+# ---------------------------
+STATUS_PORT = 8000
+GLOBAL_STATUS = {
+    "state": "Initializing",
+    "page_no": 0,
+    "total_pages": 0,
+    "total_records": 0,
+    "items_scraped": 0,
+    "items_committed": 0,
+    "db_count": 0,
+    "last_updated": str(datetime.now()),
+    "logs": collections.deque(maxlen=100)
+}
+
+
+class LogCaptureHandler(logging.Handler):
+    """Captures log records into GLOBAL_STATUS['logs']."""
+    def emit(self, record):
+        try:
+            msg = self.format(record)
+            GLOBAL_STATUS["logs"].append(msg)
+        except Exception:
+            self.handleError(record)
+
+class StatusRequestHandler(http.server.SimpleHTTPRequestHandler):
+    def log_message(self, format, *args):
+        pass  # Suppress server logs to console
+
+    def do_GET(self):
+        if self.path == '/api/status':
+            self.send_response(200)
+            self.send_header('Content-type', 'application/json')
+            self.end_headers()
+            
+            # Create a clean dict copy
+            status_copy = GLOBAL_STATUS.copy()
+            status_copy['logs'] = list(GLOBAL_STATUS['logs']) # Convert deque to list
+            
+            self.wfile.write(json.dumps(status_copy).encode('utf-8'))
+        else:
+            # Serve status.html
+            try:
+                with open("status.html", "r", encoding="utf-8") as f:
+                    content = f.read()
+                self.send_response(200)
+                self.send_header('Content-type', 'text/html')
+                self.end_headers()
+                self.wfile.write(content.encode('utf-8'))
+            except FileNotFoundError:
+                self.send_response(404)
+                self.end_headers()
+                self.wfile.write(b"status.html not found")
+
+def start_status_server():
+    """Starts the status server in a daemon thread."""
+    try:
+        # Bind to 0.0.0.0 to ensure accessibility
+        httpd = socketserver.TCPServer(("0.0.0.0", STATUS_PORT), StatusRequestHandler)
+        thread = threading.Thread(target=httpd.serve_forever)
+        thread.daemon = True
+        thread.start()
+        print(f"✅ Status Dashboard running at http://localhost:{STATUS_PORT}")
+        logger.info(f"Status Dashboard running at http://localhost:{STATUS_PORT}")
+    except Exception as e:
+        print(f"❌ Could not start status server: {e}")
+        logger.warning(f"Could not start status server: {e}")
+
 
 # ---------------------------
 # CONFIG (tweak as necessary)
@@ -251,6 +327,23 @@ def db_execute_many_upsert(rows: List[Tuple[Any, ...]]) -> int:
     finally:
         cur.close()
         conn.close()
+
+
+def db_get_count() -> int:
+    """Fetch total count of rows in gem_tenders."""
+    conn = db_connect()
+    cur = conn.cursor()
+    try:
+        cur.execute("SELECT COUNT(*) FROM gem_tenders")
+        result = cur.fetchone()
+        return result[0] if result else 0
+    except Exception:
+        logger.exception("db_get_count failed.")
+        return 0
+    finally:
+        cur.close()
+        conn.close()
+
 
 
 def db_insert_main_relevancy(rows: List[Tuple[Any, ...]]) -> int:
@@ -768,6 +861,8 @@ async def scrape_single_page_to_rows(page, page_no: int):
 async def scraper_worker(queue: asyncio.Queue, interval_seconds: int = 60):
     global SHUTDOWN
     logger.info("Scraper starting...")
+    GLOBAL_STATUS["state"] = "Running"
+
 
     # Playwright context options for production:
     playwright_launch_args = {
@@ -789,12 +884,17 @@ async def scraper_worker(queue: asyncio.Queue, interval_seconds: int = 60):
         while not SHUTDOWN:
             try:
                 total_records, total_pages = await extract_total_counts(page)
+                GLOBAL_STATUS["total_records"] = total_records
+                GLOBAL_STATUS["total_pages"] = total_pages
                 logger.info(
                     f"Found {total_records} records across {total_pages} pages."
                 )
 
+
                 page_no = 1
+                GLOBAL_STATUS["page_no"] = page_no
                 gem_rows, main_rows = await scrape_single_page_to_rows(page, page_no)
+
 
                 # enqueue gem_rows and main_rows together as a single item for consumer
                 for g_row, m_row in zip(gem_rows, main_rows):
@@ -812,6 +912,8 @@ async def scraper_worker(queue: asyncio.Queue, interval_seconds: int = 60):
                     await asyncio.sleep(1.2)
 
                     page_no += 1
+                    GLOBAL_STATUS["page_no"] = page_no
+
                     gem_rows, main_rows = await scrape_single_page_to_rows(
                         page, page_no
                     )
@@ -837,8 +939,10 @@ async def scraper_worker(queue: asyncio.Queue, interval_seconds: int = 60):
                 logger.exception("Scraper error — retrying in 10s.")
                 await asyncio.sleep(10)
 
+        GLOBAL_STATUS["state"] = "Shutdown"
         logger.info("Scraper shutting down...")
         await browser.close()
+
 
 
 # ---------------------------
@@ -908,11 +1012,24 @@ async def db_consumer(queue: asyncio.Queue, executor: ThreadPoolExecutor):
                         except Exception as e:
                             logger.error(f"Failed to queue Redis task for {row[1]}: {e}")
                     logger.info(f"Queued {count_queued} tasks to Redis/Docker.")
+                    
+                    # Update status
+                    GLOBAL_STATUS["items_committed"] += committed
+                    GLOBAL_STATUS["last_updated"] = str(datetime.now())
+
                 # -----------------------------------
         except Exception:
             logger.exception("Exception while flushing buffers.")
         finally:
             last_flush = time.time()
+            
+            # Update DB count in global status
+            try:
+                count = db_get_count()
+                GLOBAL_STATUS["db_count"] = count
+            except Exception:
+                pass
+
 
     last_snapshot = time.time()
     csv_rows_for_snapshot: List[Tuple[Any, ...]] = []
@@ -1016,10 +1133,20 @@ async def main():
     # Scraper interval in seconds (tunable)
     SCRAPER_INTERVAL = int(os.getenv("SCRAPER_INTERVAL", "300"))
 
+    # Add log capture handler
+    log_capture = LogCaptureHandler()
+    log_capture.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s"))
+    logging.getLogger().addHandler(log_capture)
+    logging.getLogger("realtime").addHandler(log_capture)
+
+    # Start Status Server
+    start_status_server()
+
     scraper_task = asyncio.create_task(
         scraper_worker(queue, interval_seconds=SCRAPER_INTERVAL)
     )
     consumer_task = asyncio.create_task(db_consumer(queue, executor))
+
 
     await asyncio.gather(scraper_task, consumer_task)
 
