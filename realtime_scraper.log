@@ -7497,3 +7497,435 @@ task: <Task cancelling name='Task-2' coro=<scraper_worker() running at C:\Users\
 2026-01-07 17:39:10,824 [INFO] Queued 1 tasks to Redis/Docker.
 2026-01-07 17:39:12,669 [INFO] Received stop signal — shutting down...
 2026-01-07 17:39:13,670 [INFO] Shutdown requested via KeyboardInterrupt
+2026-01-08 13:30:21,133 [INFO] Status Dashboard running at http://localhost:7315
+2026-01-08 13:30:21,134 [INFO] Scraper starting...
+2026-01-08 13:30:21,134 [INFO] DB consumer starting...
+2026-01-08 13:30:37,395 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 13:30:39,581 [INFO] Found 40343 records across 4035 pages.
+2026-01-08 13:30:49,515 [INFO] Found Representation JS trigger on element: view_representation_modal(8813742)
+2026-01-08 13:30:49,515 [INFO] Triggering modal via JS: view_representation_modal(8813742)
+2026-01-08 13:30:50,993 [INFO] Saved Representation JSON for GEM/2025/B/6886950
+2026-01-08 13:31:04,435 [INFO] package: mysql.connector.plugins
+2026-01-08 13:31:04,436 [INFO] plugin_name: caching_sha2_password
+2026-01-08 13:31:04,436 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-08 13:31:04,438 [INFO] package: mysql.connector.plugins
+2026-01-08 13:31:04,438 [INFO] plugin_name: mysql_native_password
+2026-01-08 13:31:04,439 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-08 13:31:04,450 [INFO] DB: committed approx 1 rows.
+2026-01-08 13:31:12,646 [ERROR] Connection to Redis lost: Retry (0/20) now.
+2026-01-08 13:31:16,693 [ERROR] Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-01-08 13:31:21,773 [ERROR] Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-01-08 13:31:26,833 [ERROR] Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-01-08 13:32:14,538 [INFO] Status Dashboard running at http://localhost:7315
+2026-01-08 13:32:14,540 [INFO] Scraper starting...
+2026-01-08 13:32:14,541 [INFO] DB consumer starting...
+2026-01-08 13:32:22,316 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 13:32:24,859 [INFO] Found 40340 records across 4034 pages.
+2026-01-08 13:32:36,030 [INFO] Found Representation JS trigger on element: view_representation_modal(8813742)
+2026-01-08 13:32:36,030 [INFO] Triggering modal via JS: view_representation_modal(8813742)
+2026-01-08 13:32:37,683 [INFO] Saved Representation JSON for GEM/2025/B/6886950
+2026-01-08 13:32:53,004 [INFO] package: mysql.connector.plugins
+2026-01-08 13:32:53,004 [INFO] plugin_name: caching_sha2_password
+2026-01-08 13:32:53,005 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-08 13:32:53,008 [INFO] package: mysql.connector.plugins
+2026-01-08 13:32:53,008 [INFO] plugin_name: mysql_native_password
+2026-01-08 13:32:53,011 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-08 13:32:53,023 [INFO] DB: committed approx 1 rows.
+2026-01-08 13:32:53,325 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-08 13:32:58,591 [INFO] DB: committed approx 9 rows.
+2026-01-08 13:32:58,637 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-08 13:33:19,887 [INFO] DB: committed approx 1 rows.
+2026-01-08 13:33:19,891 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-08 13:33:25,202 [INFO] DB: committed approx 9 rows.
+2026-01-08 13:33:25,237 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-08 13:33:39,395 [INFO] Found Representation JS trigger on element: view_representation_modal(8813153)
+2026-01-08 13:33:39,396 [INFO] Triggering modal via JS: view_representation_modal(8813153)
+2026-01-08 13:33:41,010 [INFO] Saved Representation JSON for GEM/2025/B/6663038
+2026-01-08 13:33:48,986 [INFO] DB: committed approx 1 rows.
+2026-01-08 13:33:48,992 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-08 13:33:54,442 [INFO] DB: committed approx 9 rows.
+2026-01-08 13:33:54,475 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-08 13:34:03,719 [INFO] Found Representation JS trigger on element: view_representation_modal(8813153)
+2026-01-08 13:34:03,721 [INFO] Triggering modal via JS: view_representation_modal(8813153)
+2026-01-08 13:34:05,304 [INFO] Saved Representation JSON for GEM/2025/B/6663038
+2026-01-08 13:34:15,018 [INFO] Found Representation JS trigger on element: view_representation_modal(8813031)
+2026-01-08 13:34:15,019 [INFO] Triggering modal via JS: view_representation_modal(8813031)
+2026-01-08 13:34:16,637 [INFO] Saved Representation JSON for GEM/2025/B/6993178
+2026-01-08 13:34:19,497 [INFO] DB: committed approx 1 rows.
+2026-01-08 13:34:19,504 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-08 13:34:24,893 [INFO] DB: committed approx 9 rows.
+2026-01-08 13:34:24,929 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-08 13:34:43,941 [INFO] Found Representation JS trigger on element: view_representation_modal(8813325)
+2026-01-08 13:34:43,942 [INFO] Triggering modal via JS: view_representation_modal(8813325)
+2026-01-08 13:34:45,588 [INFO] Saved Representation JSON for GEM/2025/B/6954936
+2026-01-08 13:34:48,079 [INFO] Found Representation JS trigger on element: view_representation_modal(8813316)
+2026-01-08 13:34:48,080 [INFO] Triggering modal via JS: view_representation_modal(8813316)
+2026-01-08 13:34:49,710 [INFO] Saved Representation JSON for GEM/2025/B/6835033
+2026-01-08 13:34:49,940 [INFO] DB: committed approx 1 rows.
+2026-01-08 13:34:49,947 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-08 13:34:55,348 [INFO] DB: committed approx 9 rows.
+2026-01-08 13:34:55,378 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-08 13:35:06,756 [INFO] Found Representation JS trigger on element: view_representation_modal(8813245)
+2026-01-08 13:35:06,757 [INFO] Triggering modal via JS: view_representation_modal(8813245)
+2026-01-08 13:35:08,407 [INFO] Saved Representation JSON for GEM/2025/B/6983294
+2026-01-08 13:35:18,348 [INFO] DB: committed approx 1 rows.
+2026-01-08 13:35:18,352 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-08 13:35:23,730 [INFO] DB: committed approx 9 rows.
+2026-01-08 13:35:23,781 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-08 13:35:45,328 [INFO] DB: committed approx 1 rows.
+2026-01-08 13:35:45,333 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-08 13:35:50,589 [INFO] DB: committed approx 9 rows.
+2026-01-08 13:35:50,620 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-08 13:57:43,590 [INFO] Status Dashboard running at http://localhost:7315
+2026-01-08 13:57:43,591 [INFO] Scraper starting...
+2026-01-08 13:57:43,591 [INFO] DB consumer starting...
+2026-01-08 13:57:48,945 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 13:57:50,418 [INFO] Found 40409 records across 4041 pages.
+2026-01-08 13:58:10,941 [INFO] Found Representation JS trigger on element: view_representation_modal(8813892)
+2026-01-08 13:58:10,941 [INFO] Triggering modal via JS: view_representation_modal(8813892)
+2026-01-08 13:58:12,426 [INFO] Saved Representation JSON for GEM/2025/B/6915496
+2026-01-08 13:58:14,943 [INFO] package: mysql.connector.plugins
+2026-01-08 13:58:14,943 [INFO] plugin_name: caching_sha2_password
+2026-01-08 13:58:14,944 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-08 13:58:14,945 [INFO] package: mysql.connector.plugins
+2026-01-08 13:58:14,946 [INFO] plugin_name: mysql_native_password
+2026-01-08 13:58:14,948 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-08 13:58:14,954 [INFO] DB: committed approx 1 rows.
+2026-01-08 13:58:15,232 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-08 13:58:20,373 [INFO] DB: committed approx 9 rows.
+2026-01-08 13:58:20,397 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-08 13:58:22,533 [INFO] Found Representation JS trigger on element: view_representation_modal(8813877)
+2026-01-08 13:58:22,534 [INFO] Triggering modal via JS: view_representation_modal(8813877)
+2026-01-08 13:58:24,083 [INFO] Saved Representation JSON for GEM/2025/B/6842952
+2026-01-08 13:58:42,713 [INFO] Found Representation JS trigger on element: view_representation_modal(8813742)
+2026-01-08 13:58:42,714 [INFO] Triggering modal via JS: view_representation_modal(8813742)
+2026-01-08 13:58:44,305 [INFO] Saved Representation JSON for GEM/2025/B/6886950
+2026-01-08 13:58:44,462 [INFO] DB: committed approx 1 rows.
+2026-01-08 13:58:44,469 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-08 13:58:49,769 [INFO] DB: committed approx 9 rows.
+2026-01-08 13:58:49,807 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-08 13:59:11,257 [INFO] DB: committed approx 1 rows.
+2026-01-08 13:59:11,261 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-08 13:59:14,338 [INFO] Found Representation JS trigger on element: view_representation_modal(8813901)
+2026-01-08 13:59:14,339 [INFO] Triggering modal via JS: view_representation_modal(8813901)
+2026-01-08 13:59:15,957 [INFO] Saved Representation JSON for GEM/2025/B/6846720
+2026-01-08 13:59:16,620 [INFO] DB: committed approx 9 rows.
+2026-01-08 13:59:16,659 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-08 13:59:39,238 [INFO] DB: committed approx 1 rows.
+2026-01-08 13:59:39,240 [INFO] Queued 1 tasks to Redis/Docker.
+2026-01-08 13:59:43,634 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 13:59:44,370 [INFO] DB: committed approx 9 rows.
+2026-01-08 13:59:44,395 [INFO] Queued 9 tasks to Redis/Docker.
+2026-01-08 13:59:45,080 [INFO] Found 40410 records across 4041 pages.
+2026-01-08 14:31:28,874 [INFO] Status Dashboard running at http://localhost:7315
+2026-01-08 14:31:28,882 [INFO] Initializing... (Ctrl+C to stop)
+2026-01-08 14:31:28,882 [INFO] DB consumer starting...
+2026-01-08 14:31:28,883 [INFO] Scraper starting...
+2026-01-08 14:31:32,195 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 14:31:33,628 [INFO] Found 40292 records across 4030 pages.
+2026-01-08 14:31:37,259 [INFO] package: mysql.connector.plugins
+2026-01-08 14:31:37,259 [INFO] plugin_name: caching_sha2_password
+2026-01-08 14:31:37,260 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-08 14:31:37,261 [INFO] package: mysql.connector.plugins
+2026-01-08 14:31:37,261 [INFO] plugin_name: mysql_native_password
+2026-01-08 14:31:37,262 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-08 14:31:37,266 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:31:40,047 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 14:31:41,454 [INFO] Found 40292 records across 4030 pages.
+2026-01-08 14:31:42,421 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:31:44,911 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:31:48,292 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:31:50,634 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 14:31:52,745 [INFO] Found 40292 records across 4030 pages.
+2026-01-08 14:31:58,837 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:32:04,098 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:32:09,419 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:32:10,276 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:32:15,864 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:32:20,019 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 14:32:21,176 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:32:21,527 [INFO] Found 40292 records across 4030 pages.
+2026-01-08 14:32:26,935 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:32:30,229 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 14:32:31,711 [INFO] Found 40292 records across 4030 pages.
+2026-01-08 14:32:32,166 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:32:35,031 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:32:38,736 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:32:40,886 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 14:32:42,278 [INFO] Found 40292 records across 4030 pages.
+2026-01-08 14:32:45,789 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:32:49,281 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:32:53,128 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:32:56,520 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:32:59,097 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 14:33:00,553 [INFO] Found 40292 records across 4030 pages.
+2026-01-08 14:33:01,757 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:33:05,375 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:37:50,186 [INFO] Status Dashboard running at http://localhost:7315
+2026-01-08 14:37:50,188 [INFO] Initializing... (Ctrl+C to stop)
+2026-01-08 14:37:50,188 [INFO] DB consumer starting...
+2026-01-08 14:37:50,188 [INFO] Scraper starting...
+2026-01-08 14:37:52,545 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 14:37:53,992 [INFO] Found 40291 records across 4030 pages.
+2026-01-08 14:37:57,596 [INFO] package: mysql.connector.plugins
+2026-01-08 14:37:57,597 [INFO] plugin_name: caching_sha2_password
+2026-01-08 14:37:57,597 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-08 14:37:57,598 [INFO] package: mysql.connector.plugins
+2026-01-08 14:37:57,599 [INFO] plugin_name: mysql_native_password
+2026-01-08 14:37:57,600 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-08 14:37:57,604 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:38:01,467 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:38:02,171 [WARNING] No rows found on page 3? Retrying shortly...
+2026-01-08 14:38:06,616 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:38:07,837 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:38:11,577 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:38:15,476 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:38:19,169 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:38:23,186 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:38:26,845 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:38:30,922 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:38:34,601 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:38:38,477 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:38:42,143 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:38:46,066 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:38:49,748 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:38:53,715 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:38:57,369 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:01,363 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:05,192 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:09,092 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:12,836 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:16,752 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:20,438 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:24,424 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:28,058 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:31,944 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:35,855 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:39,736 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:43,484 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:47,407 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:51,124 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:55,063 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:39:58,835 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:02,772 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:06,483 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:10,377 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:14,069 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:17,973 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:21,585 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:25,522 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:29,280 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:33,156 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:36,943 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:41,081 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:44,757 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:48,647 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:52,306 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:56,226 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:40:59,943 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:41:03,933 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:41:08,089 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:41:12,360 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:41:44,460 [INFO] Status Dashboard running at http://localhost:7315
+2026-01-08 14:41:44,462 [INFO] Initializing... (Ctrl+C to stop)
+2026-01-08 14:41:44,462 [INFO] DB consumer starting...
+2026-01-08 14:41:44,462 [INFO] Scraper starting...
+2026-01-08 14:41:47,309 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 14:41:48,750 [INFO] Found 40288 records across 4029 pages.
+2026-01-08 14:41:52,350 [INFO] package: mysql.connector.plugins
+2026-01-08 14:41:52,350 [INFO] plugin_name: caching_sha2_password
+2026-01-08 14:41:52,350 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-08 14:41:52,352 [INFO] package: mysql.connector.plugins
+2026-01-08 14:41:52,352 [INFO] plugin_name: mysql_native_password
+2026-01-08 14:41:52,353 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-08 14:41:52,356 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:41:56,068 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:42:00,313 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:42:04,008 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:42:09,278 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:42:10,811 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:42:15,887 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:42:21,799 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:42:26,900 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:42:32,282 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:42:33,054 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:42:38,338 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:42:43,628 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:42:44,448 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:42:50,113 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:42:55,453 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:42:56,166 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:43:02,077 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:43:07,568 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:43:08,258 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:43:13,762 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:43:19,093 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:43:20,928 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:43:26,326 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:43:31,842 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:43:32,048 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:43:35,803 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:43:39,845 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:43:43,593 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:43:47,524 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:43:53,447 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:43:58,857 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:43:59,516 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:44:04,483 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:44:10,743 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:44:16,063 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:44:21,602 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:44:22,231 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:44:26,504 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:49:31,497 [INFO] Status Dashboard running at http://localhost:7315
+2026-01-08 14:49:31,499 [INFO] Initializing... (Ctrl+C to stop)
+2026-01-08 14:49:31,500 [INFO] DB consumer starting...
+2026-01-08 14:49:31,500 [INFO] Scraper starting...
+2026-01-08 14:49:34,817 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 14:49:35,958 [INFO] Found 40398 records across 4040 pages.
+2026-01-08 14:49:37,689 [INFO] package: mysql.connector.plugins
+2026-01-08 14:49:37,689 [INFO] plugin_name: caching_sha2_password
+2026-01-08 14:49:37,690 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-08 14:49:37,691 [INFO] package: mysql.connector.plugins
+2026-01-08 14:49:37,691 [INFO] plugin_name: mysql_native_password
+2026-01-08 14:49:37,692 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-08 14:49:37,696 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:49:40,097 [WARNING] No rows found on page 3? Retrying shortly...
+2026-01-08 14:49:43,535 [INFO] DB: committed approx 19 rows.
+2026-01-08 14:49:48,909 [INFO] DB: committed approx 20 rows.
+2026-01-08 14:49:54,349 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:49:59,781 [INFO] DB: committed approx 11 rows.
+2026-01-08 14:50:05,700 [INFO] DB: committed approx 19 rows.
+2026-01-08 14:50:10,933 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:50:16,451 [INFO] DB: committed approx 20 rows.
+2026-01-08 14:50:21,939 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:50:27,993 [INFO] DB: committed approx 20 rows.
+2026-01-08 14:50:33,243 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:50:38,543 [INFO] DB: committed approx 11 rows.
+2026-01-08 14:50:44,663 [INFO] DB: committed approx 19 rows.
+2026-01-08 14:50:50,545 [INFO] DB: committed approx 20 rows.
+2026-01-08 14:50:56,068 [INFO] DB: committed approx 20 rows.
+2026-01-08 14:51:01,577 [INFO] DB: committed approx 20 rows.
+2026-01-08 14:51:07,443 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:51:13,358 [INFO] DB: committed approx 20 rows.
+2026-01-08 14:51:19,241 [INFO] DB: committed approx 20 rows.
+2026-01-08 14:51:24,898 [INFO] DB: committed approx 21 rows.
+2026-01-08 14:51:30,117 [INFO] DB: committed approx 29 rows.
+2026-01-08 14:51:35,588 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:51:41,366 [INFO] DB: committed approx 30 rows.
+2026-01-08 14:51:46,430 [INFO] DB: committed approx 21 rows.
+2026-01-08 14:51:51,550 [INFO] DB: committed approx 29 rows.
+2026-01-08 14:51:57,568 [INFO] DB: committed approx 30 rows.
+2026-01-08 14:52:02,687 [INFO] DB: committed approx 21 rows.
+2026-01-08 14:52:08,495 [INFO] DB: committed approx 30 rows.
+2026-01-08 14:52:14,267 [INFO] DB: committed approx 30 rows.
+2026-01-08 14:52:20,029 [INFO] DB: committed approx 30 rows.
+2026-01-08 14:52:25,726 [INFO] DB: committed approx 30 rows.
+2026-01-08 14:52:31,322 [INFO] DB: committed approx 30 rows.
+2026-01-08 14:52:36,407 [INFO] DB: committed approx 29 rows.
+2026-01-08 14:52:42,084 [INFO] DB: committed approx 30 rows.
+2026-01-08 14:52:47,440 [WARNING] No rows found on page 73? Retrying shortly...
+2026-01-08 14:52:47,863 [INFO] DB: committed approx 30 rows.
+2026-01-08 14:52:53,626 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:52:59,645 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:55:49,461 [INFO] Status Dashboard running at http://localhost:7315
+2026-01-08 14:55:49,463 [INFO] Initializing... (Ctrl+C to stop)
+2026-01-08 14:55:49,463 [INFO] DB consumer starting...
+2026-01-08 14:55:49,464 [INFO] Scraper starting...
+2026-01-08 14:55:52,605 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 14:55:53,757 [INFO] Found 40396 records across 4040 pages.
+2026-01-08 14:55:56,647 [INFO] package: mysql.connector.plugins
+2026-01-08 14:55:56,647 [INFO] plugin_name: caching_sha2_password
+2026-01-08 14:55:56,648 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-08 14:55:56,649 [INFO] package: mysql.connector.plugins
+2026-01-08 14:55:56,650 [INFO] plugin_name: mysql_native_password
+2026-01-08 14:55:56,651 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-08 14:55:56,655 [INFO] DB: committed approx 1 rows.
+2026-01-08 14:56:01,785 [INFO] DB: committed approx 19 rows.
+2026-01-08 14:56:08,159 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:56:13,670 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:56:19,646 [INFO] DB: committed approx 11 rows.
+2026-01-08 14:56:25,619 [INFO] DB: committed approx 19 rows.
+2026-01-08 14:56:31,548 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:56:37,320 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:56:42,825 [INFO] DB: committed approx 10 rows.
+2026-01-08 14:56:47,955 [INFO] DB: committed approx 11 rows.
+2026-01-08 14:56:53,184 [INFO] DB: committed approx 9 rows.
+2026-01-08 14:56:58,666 [INFO] DB: committed approx 11 rows.
+2026-01-08 14:57:04,573 [INFO] DB: committed approx 19 rows.
+2026-01-08 14:57:09,995 [INFO] DB: committed approx 10 rows.
+2026-01-08 15:55:40,302 [INFO] Status Dashboard running at http://localhost:7315
+2026-01-08 15:55:40,303 [INFO] Initializing... (Ctrl+C to stop)
+2026-01-08 15:55:40,303 [INFO] DB consumer starting...
+2026-01-08 15:55:40,304 [INFO] Scraper starting...
+2026-01-08 15:55:43,235 [INFO] Applying sorting: Bid Start Date -> Latest
+2026-01-08 15:55:44,421 [INFO] Found 40588 records across 4059 pages.
+2026-01-08 15:55:46,989 [INFO] package: mysql.connector.plugins
+2026-01-08 15:55:46,989 [INFO] plugin_name: caching_sha2_password
+2026-01-08 15:55:46,989 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-01-08 15:55:46,991 [INFO] package: mysql.connector.plugins
+2026-01-08 15:55:46,991 [INFO] plugin_name: mysql_native_password
+2026-01-08 15:55:46,992 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-01-08 15:55:46,996 [INFO] DB: committed approx 1 rows.
+2026-01-08 15:55:52,811 [INFO] DB: committed approx 20 rows.
+2026-01-08 15:55:58,627 [INFO] DB: committed approx 20 rows.
+2026-01-08 15:56:04,386 [INFO] DB: committed approx 20 rows.
+2026-01-08 15:56:09,424 [INFO] DB: committed approx 19 rows.
+2026-01-08 15:56:14,734 [INFO] DB: committed approx 20 rows.
+2026-01-08 15:56:17,410 [ERROR] Scraper error — retrying in 10s.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 691, in scraper_worker
+    gem_rows = await scrape_single_page_to_rows(page, page_no)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 434, in scrape_single_page_to_rows
+    cards = await page.query_selector_all("div.card")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8107, in query_selector_all
+    await self._impl_obj.query_selector_all(selector=selector)
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_page.py", line 413, in query_selector_all
+    return await self._main_frame.query_selector_all(selector)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_frame.py", line 355, in query_selector_all
+    await self._channel.send(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+        "querySelectorAll", None, dict(selector=selector)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.query_selector_all: Target crashed 
+2026-01-08 15:56:19,884 [INFO] DB: committed approx 10 rows.
+2026-01-08 15:56:27,419 [ERROR] Scraper error — retrying in 10s.
+Traceback (most recent call last):
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 652, in scraper_worker
+    total_records, total_pages = await extract_total_counts(page)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\run.py", line 256, in extract_total_counts
+    await page.goto(f"{BASE_URL}/all-bids", timeout=0, wait_until="domcontentloaded")
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8992, in goto
+    await self._impl_obj.goto(
+        url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+    )
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_page.py", line 555, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\rexro\OneDrive\Desktop\TENDER\new_Scrapper\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed
